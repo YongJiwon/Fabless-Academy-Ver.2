@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Work/OnDeviceAI2/0514_COUNT_CPU/0514_COUNT_CPU.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/Work/OnDeviceAI2/0514_COUNT_CPU/0514_COUNT_CPU.srcs/sim_1/new/tb_cpu0.sv,1778734834,systemVerilog,,,,cpu_if;tb_cpu0,,uvm,,,,,,
+D:/Work/OnDeviceAI2/0514_COUNT_CPU/0514_COUNT_CPU.srcs/sources_1/new/dedicated_cpu_counter.sv,1778822876,systemVerilog,D:/Work/OnDeviceAI2/0514_COUNT_CPU/0514_COUNT_CPU.srcs/sim_1/new/tb_cpu0.sv,D:/Work/OnDeviceAI2/0514_COUNT_CPU/0514_COUNT_CPU.srcs/sim_1/new/tb_cpu0.sv,,a_reg;alu;comp_eq9;control_unit;data_path;dedicated_cpu_counter;mux_2x1,,uvm,,,,,,

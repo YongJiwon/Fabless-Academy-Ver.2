@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../0515_dedicated_cpu_sum_1to10.srcs/sources_1/new" \
+"../../../../0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/control_unit.sv" \
+"../../../../0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/instruction_mem.sv" \
+"../../../../0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_cpu.sv" \
+"../../../../0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv" \
+"../../../../0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/top_rv32i_soc.sv" \
+"../../../../0515_dedicated_cpu_sum_1to10.srcs/sim_1/new/tb_rv32i.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

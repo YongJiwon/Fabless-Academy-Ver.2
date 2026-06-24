@@ -1,0 +1,11 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+==================================================
+  시작: 160회 연속 SPI 루프백 테스트
+==================================================
+Fatal: [에러] [1회차] master_rx=00 (예상값 slave_tx=6a)
+Time: 385 ns  Iteration: 0  Process: /tb_spi_loopback/Initial85_6  Scope: tb_spi_loopback  File: D:/Work/OnDeviceAI2/20260612_SPI/20260612_SPI.srcs/sim_1/new/tb_spi_loopback.sv Line: 123
+$finish called at time : 385 ns : File "D:/Work/OnDeviceAI2/20260612_SPI/20260612_SPI.srcs/sim_1/new/tb_spi_loopback.sv" Line 123
+Fatal: [에러] [1회차] slave rx_valid 신호가 발생하지 않았습니다.
+Time: 385 ns  Iteration: 0  Process: /tb_spi_loopback/Initial85_6  Scope: tb_spi_loopback  File: D:/Work/OnDeviceAI2/20260612_SPI/20260612_SPI.srcs/sim_1/new/tb_spi_loopback.sv Line: 126
+$finish called at time : 385 ns : File "D:/Work/OnDeviceAI2/20260612_SPI/20260612_SPI.srcs/sim_1/new/tb_spi_loopback.sv" Line 126

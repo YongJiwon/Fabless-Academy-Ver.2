@@ -1,0 +1,11 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Work/OnDeviceAI2/0615_I2C_FPGA_tb/0615_I2C_FPGA.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/Work/OnDeviceAI2/0615_I2C_FPGA_tb/0615_I2C_FPGA.srcs/sim_1/new/tb_uart_i2c_system.sv,1781587263,systemVerilog,,,,tb_uart_i2c_system,,uvm,,,,,,
+D:/Work/OnDeviceAI2/0615_I2C_FPGA_tb/0615_I2C_FPGA.srcs/sources_1/new/i2c_master.sv,1781576752,systemVerilog,,D:/Work/OnDeviceAI2/0615_I2C_FPGA_tb/0615_I2C_FPGA.srcs/sources_1/new/i2c_slave.sv,,I2C_Master_top;i2c_master,,uvm,,,,,,
+D:/Work/OnDeviceAI2/0615_I2C_FPGA_tb/0615_I2C_FPGA.srcs/sources_1/new/i2c_slave.sv,1781568786,systemVerilog,,D:/Work/OnDeviceAI2/0615_I2C_FPGA_tb/0615_I2C_FPGA.srcs/sources_1/new/master_top.sv,,i2c_slave,,uvm,,,,,,
+D:/Work/OnDeviceAI2/0615_I2C_FPGA_tb/0615_I2C_FPGA.srcs/sources_1/new/master_top.sv,1781574222,systemVerilog,,D:/Work/OnDeviceAI2/0615_I2C_FPGA_tb/0615_I2C_FPGA.srcs/sources_1/new/slave_top.sv,,master_top,,uvm,,,,,,
+D:/Work/OnDeviceAI2/0615_I2C_FPGA_tb/0615_I2C_FPGA.srcs/sources_1/new/slave_top.sv,1781574234,systemVerilog,,D:/Work/OnDeviceAI2/0615_I2C_FPGA_tb/0615_I2C_FPGA.srcs/sim_1/new/tb_uart_i2c_system.sv,,slave_top,,uvm,,,,,,
+D:/Work/OnDeviceAI2/0615_I2C_FPGA_tb/0615_I2C_FPGA.srcs/sources_1/new/uart.v,1777343588,verilog,,,,baud_tick_gen;uart;uart_rx;uart_tx,,uvm,,,,,,

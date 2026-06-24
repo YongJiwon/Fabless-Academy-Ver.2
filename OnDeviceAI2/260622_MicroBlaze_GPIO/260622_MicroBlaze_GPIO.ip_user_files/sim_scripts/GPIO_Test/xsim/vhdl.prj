@@ -1,0 +1,11 @@
+vhdl xil_defaultlib  \
+"../../../bd/GPIO_Test/ip/GPIO_Test_microblaze_0_0/sim/GPIO_Test_microblaze_0_0.vhd" \
+"../../../bd/GPIO_Test/ip/GPIO_Test_dlmb_v10_0/sim/GPIO_Test_dlmb_v10_0.vhd" \
+"../../../bd/GPIO_Test/ip/GPIO_Test_ilmb_v10_0/sim/GPIO_Test_ilmb_v10_0.vhd" \
+"../../../bd/GPIO_Test/ip/GPIO_Test_dlmb_bram_if_cntlr_0/sim/GPIO_Test_dlmb_bram_if_cntlr_0.vhd" \
+"../../../bd/GPIO_Test/ip/GPIO_Test_ilmb_bram_if_cntlr_0/sim/GPIO_Test_ilmb_bram_if_cntlr_0.vhd" \
+"../../../bd/GPIO_Test/ip/GPIO_Test_mdm_1_0/sim/GPIO_Test_mdm_1_0.vhd" \
+"../../../bd/GPIO_Test/ip/GPIO_Test_rst_clk_wiz_1_100M_0/sim/GPIO_Test_rst_clk_wiz_1_100M_0.vhd" \
+"../../../bd/GPIO_Test/ip/GPIO_Test_axi_uartlite_0_0/sim/GPIO_Test_axi_uartlite_0_0.vhd" \
+
+nosort

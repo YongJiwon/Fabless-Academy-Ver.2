@@ -1,0 +1,4 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+I2C Write Sequence Finished successfully.
+$stop called at time : 380015 ns : File "D:/Work/OnDeviceAI2/20260612_I2C_Master_practice/20260612_I2C_Master_practice.srcs/sim_1/new/tb_i2c_master.sv" Line 102

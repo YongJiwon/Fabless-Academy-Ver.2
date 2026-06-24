@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr  7 09:33:13 2026
+# Process ID: 17800
+# Current directory: D:/Work/OnDeviceAI2/mk2/mk2.runs/impl_1
+# Command line: vivado.exe -log sw_sum_fnd.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source sw_sum_fnd.tcl -notrace
+# Log file: D:/Work/OnDeviceAI2/mk2/mk2.runs/impl_1/sw_sum_fnd.vdi
+# Journal file: D:/Work/OnDeviceAI2/mk2/mk2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source sw_sum_fnd.tcl -notrace

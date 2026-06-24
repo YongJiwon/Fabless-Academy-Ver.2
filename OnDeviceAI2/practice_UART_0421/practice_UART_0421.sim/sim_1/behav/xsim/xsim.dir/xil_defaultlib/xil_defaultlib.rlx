@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Work/OnDeviceAI2/practice_UART_0421/practice_UART_0421.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/Work/OnDeviceAI2/practice_UART_0421/practice_UART_0421.srcs/sim_1/new/tb_uart.v,1776831357,verilog,,,,tb_uart,,,,,,,,
+D:/Work/OnDeviceAI2/practice_UART_0421/practice_UART_0421.srcs/sim_1/new/tb_uart_loopback.v,1777343697,verilog,,,,tb_uart_loopback,,,,,,,,
+D:/Work/OnDeviceAI2/practice_UART_0421/practice_UART_0421.srcs/sources_1/imports/new/debounce.v,1776823130,verilog,,D:/Work/OnDeviceAI2/practice_UART_0421/practice_UART_0421.srcs/sources_1/new/uart.v,,debounce,,,,,,,,
+D:/Work/OnDeviceAI2/practice_UART_0421/practice_UART_0421.srcs/sources_1/new/uart.v,1777343588,verilog,,D:/Work/OnDeviceAI2/practice_UART_0421/practice_UART_0421.srcs/sources_1/new/uart_loopback.v,,baud_tick_gen;uart;uart_rx;uart_tx,,,,,,,,
+D:/Work/OnDeviceAI2/practice_UART_0421/practice_UART_0421.srcs/sources_1/new/uart_loopback.v,1776845912,verilog,,D:/Work/OnDeviceAI2/practice_UART_0421/practice_UART_0421.srcs/sim_1/new/tb_uart_loopback.v,,uart_loopback,,,,,,,,

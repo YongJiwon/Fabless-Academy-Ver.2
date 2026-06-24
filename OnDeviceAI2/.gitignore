@@ -1,0 +1,6 @@
+﻿*.wdb
+*.zip
+*.prm
+*.bit
+/work/
+/xsim/

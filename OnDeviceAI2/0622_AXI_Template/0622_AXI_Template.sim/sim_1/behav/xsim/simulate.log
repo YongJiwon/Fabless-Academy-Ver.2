@@ -1,0 +1,11 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+[               95000] WRITE: addr = 0x0, wdata = 0xdeadbeef
+[              145000] WRITE: addr = 0x4, wdata = 0xcafebabe
+[              195000] WRITE: addr = 0x8, wdata = 0x12345678
+[              245000] WRITE: addr = 0xc, wdata = 0xaaaabbbb
+[              315000] READ: addr = 0x0, rdata = 0xdeadbeef
+[              365000] READ: addr = 0x4, rdata = 0xcafebabe
+[              415000] READ: addr = 0x8, rdata = 0x12345678
+[              465000] READ: addr = 0xc, rdata = 0xaaaabbbb
+$stop called at time : 585 ns : File "D:/Work/OnDeviceAI2/0622_AXI_Template/0622_AXI_Template.srcs/sim_1/new/tb_axi_slave.sv" Line 116

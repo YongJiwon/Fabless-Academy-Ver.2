@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_ascii_sender_uart_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top_ascii_sender_uart" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5198318333fs"></ZoomStartTime>
+      <ZoomEndTime time="383398318334fs"></ZoomEndTime>
+      <Cursor1Time time="320364985000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="184"></NameColumnWidth>
+      <ValueColumnWidth column_width="78"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="group21" type="group">
+      <obj_property name="label">Top Module</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/echo" type="logic">
+         <obj_property name="ElementShortName">echo</obj_property>
+         <obj_property name="ObjectShortName">echo</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/btnR" type="logic">
+         <obj_property name="ElementShortName">btnR</obj_property>
+         <obj_property name="ObjectShortName">btnR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/btnL" type="logic">
+         <obj_property name="ElementShortName">btnL</obj_property>
+         <obj_property name="ObjectShortName">btnL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/btnU" type="logic">
+         <obj_property name="ElementShortName">btnU</obj_property>
+         <obj_property name="ObjectShortName">btnU</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/btnD" type="logic">
+         <obj_property name="ElementShortName">btnD</obj_property>
+         <obj_property name="ObjectShortName">btnD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/tx_start" type="logic">
+         <obj_property name="ElementShortName">tx_start</obj_property>
+         <obj_property name="ObjectShortName">tx_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/sw" type="array">
+         <obj_property name="ElementShortName">sw[3:0]</obj_property>
+         <obj_property name="ObjectShortName">sw[3:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/tx_data" type="array">
+         <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/rx_data" type="array">
+         <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/trig" type="logic">
+         <obj_property name="ElementShortName">trig</obj_property>
+         <obj_property name="ObjectShortName">trig</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/rx_done" type="logic">
+         <obj_property name="ElementShortName">rx_done</obj_property>
+         <obj_property name="ObjectShortName">rx_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/tx_busy" type="logic">
+         <obj_property name="ElementShortName">tx_busy</obj_property>
+         <obj_property name="ObjectShortName">tx_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/fnd_com" type="array">
+         <obj_property name="ElementShortName">fnd_com[3:0]</obj_property>
+         <obj_property name="ObjectShortName">fnd_com[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dht11" type="logic">
+         <obj_property name="ElementShortName">dht11</obj_property>
+         <obj_property name="ObjectShortName">dht11</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/led" type="array">
+         <obj_property name="ElementShortName">led[7:0]</obj_property>
+         <obj_property name="ObjectShortName">led[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/fnd_data" type="array">
+         <obj_property name="ElementShortName">fnd_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">fnd_data[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/pc_tx_out" type="logic">
+         <obj_property name="ElementShortName">pc_tx_out</obj_property>
+         <obj_property name="ObjectShortName">pc_tx_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/board_tx_out" type="logic">
+         <obj_property name="ElementShortName">board_tx_out</obj_property>
+         <obj_property name="ObjectShortName">board_tx_out</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider44">
+      <obj_property name="label">END</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#F0E68C</obj_property>
+   </wvobject>
+   <wvobject fp_name="group42" type="group">
+      <obj_property name="label">STOPWATCH</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_STOPWATCH_DATAPATH/i_run_stop" type="logic">
+         <obj_property name="ElementShortName">i_run_stop</obj_property>
+         <obj_property name="ObjectShortName">i_run_stop</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_STOPWATCH_DATAPATH/i_clear" type="logic">
+         <obj_property name="ElementShortName">i_clear</obj_property>
+         <obj_property name="ObjectShortName">i_clear</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_STOPWATCH_DATAPATH/i_type" type="logic">
+         <obj_property name="ElementShortName">i_type</obj_property>
+         <obj_property name="ObjectShortName">i_type</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_STOPWATCH_DATAPATH/o_st_msec" type="array">
+         <obj_property name="ElementShortName">o_st_msec[6:0]</obj_property>
+         <obj_property name="ObjectShortName">o_st_msec[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_STOPWATCH_DATAPATH/o_st_sec" type="array">
+         <obj_property name="ElementShortName">o_st_sec[5:0]</obj_property>
+         <obj_property name="ObjectShortName">o_st_sec[5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_STOPWATCH_DATAPATH/o_st_min" type="array">
+         <obj_property name="ElementShortName">o_st_min[5:0]</obj_property>
+         <obj_property name="ObjectShortName">o_st_min[5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_STOPWATCH_DATAPATH/o_st_hour" type="array">
+         <obj_property name="ElementShortName">o_st_hour[4:0]</obj_property>
+         <obj_property name="ObjectShortName">o_st_hour[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider45">
+      <obj_property name="label">END</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#F0E68C</obj_property>
+   </wvobject>
+   <wvobject fp_name="group43" type="group">
+      <obj_property name="label">WATCH</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_WATCH_DATAPATH/i_digit" type="logic">
+         <obj_property name="ElementShortName">i_digit</obj_property>
+         <obj_property name="ObjectShortName">i_digit</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_WATCH_DATAPATH/i_up_down" type="logic">
+         <obj_property name="ElementShortName">i_up_down</obj_property>
+         <obj_property name="ObjectShortName">i_up_down</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_WATCH_DATAPATH/i_edit" type="array">
+         <obj_property name="ElementShortName">i_edit[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_edit[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_WATCH_DATAPATH/o_wt_msec" type="array">
+         <obj_property name="ElementShortName">o_wt_msec[6:0]</obj_property>
+         <obj_property name="ObjectShortName">o_wt_msec[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_WATCH_DATAPATH/o_wt_sec" type="array">
+         <obj_property name="ElementShortName">o_wt_sec[5:0]</obj_property>
+         <obj_property name="ObjectShortName">o_wt_sec[5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_WATCH_DATAPATH/o_wt_min" type="array">
+         <obj_property name="ElementShortName">o_wt_min[5:0]</obj_property>
+         <obj_property name="ObjectShortName">o_wt_min[5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_WATCH_DATAPATH/o_wt_hour" type="array">
+         <obj_property name="ElementShortName">o_wt_hour[4:0]</obj_property>
+         <obj_property name="ObjectShortName">o_wt_hour[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_UART_TOP/tx_start" type="logic">
+         <obj_property name="ElementShortName">tx_start</obj_property>
+         <obj_property name="ObjectShortName">tx_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_UART_TOP/tx_data" type="array">
+         <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_UART_TOP/rx" type="logic">
+         <obj_property name="ElementShortName">rx</obj_property>
+         <obj_property name="ObjectShortName">rx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_UART_TOP/rx_data" type="array">
+         <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_UART_TOP/rx_done" type="logic">
+         <obj_property name="ElementShortName">rx_done</obj_property>
+         <obj_property name="ObjectShortName">rx_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_UART_TOP/tx_busy" type="logic">
+         <obj_property name="ElementShortName">tx_busy</obj_property>
+         <obj_property name="ObjectShortName">tx_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_UART_TOP/tx" type="logic">
+         <obj_property name="ElementShortName">tx</obj_property>
+         <obj_property name="ObjectShortName">tx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_UART_TOP/w_b_tick" type="logic">
+         <obj_property name="ElementShortName">w_b_tick</obj_property>
+         <obj_property name="ObjectShortName">w_b_tick</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider46">
+      <obj_property name="label">END</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#F0E68C</obj_property>
+   </wvobject>
+   <wvobject fp_name="group47" type="group">
+      <obj_property name="label">UART</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_UART_TOP/tx_start" type="logic">
+         <obj_property name="ElementShortName">tx_start</obj_property>
+         <obj_property name="ObjectShortName">tx_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_UART_TOP/tx_data" type="array">
+         <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_UART_TOP/rx" type="logic">
+         <obj_property name="ElementShortName">rx</obj_property>
+         <obj_property name="ObjectShortName">rx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_UART_TOP/rx_data" type="array">
+         <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_UART_TOP/rx_done" type="logic">
+         <obj_property name="ElementShortName">rx_done</obj_property>
+         <obj_property name="ObjectShortName">rx_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_UART_TOP/tx_busy" type="logic">
+         <obj_property name="ElementShortName">tx_busy</obj_property>
+         <obj_property name="ObjectShortName">tx_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_UART_TOP/tx" type="logic">
+         <obj_property name="ElementShortName">tx</obj_property>
+         <obj_property name="ObjectShortName">tx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_UART_TOP/w_b_tick" type="logic">
+         <obj_property name="ElementShortName">w_b_tick</obj_property>
+         <obj_property name="ObjectShortName">w_b_tick</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider48">
+      <obj_property name="label">END</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#F0E68C</obj_property>
+   </wvobject>
+   <wvobject fp_name="group49" type="group">
+      <obj_property name="label">ASCII - Decoder</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_DECODER/i_valid" type="logic">
+         <obj_property name="ElementShortName">i_valid</obj_property>
+         <obj_property name="ObjectShortName">i_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_DECODER/signal_U" type="logic">
+         <obj_property name="ElementShortName">signal_U</obj_property>
+         <obj_property name="ObjectShortName">signal_U</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_DECODER/signal_D" type="logic">
+         <obj_property name="ElementShortName">signal_D</obj_property>
+         <obj_property name="ObjectShortName">signal_D</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_DECODER/signal_R" type="logic">
+         <obj_property name="ElementShortName">signal_R</obj_property>
+         <obj_property name="ObjectShortName">signal_R</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_DECODER/signal_L" type="logic">
+         <obj_property name="ElementShortName">signal_L</obj_property>
+         <obj_property name="ObjectShortName">signal_L</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_DECODER/signal_T" type="logic">
+         <obj_property name="ElementShortName">signal_T</obj_property>
+         <obj_property name="ObjectShortName">signal_T</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_DECODER/signal_S" type="logic">
+         <obj_property name="ElementShortName">signal_S</obj_property>
+         <obj_property name="ObjectShortName">signal_S</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_DECODER/signal_C" type="logic">
+         <obj_property name="ElementShortName">signal_C</obj_property>
+         <obj_property name="ObjectShortName">signal_C</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_DECODER/signal_M" type="logic">
+         <obj_property name="ElementShortName">signal_M</obj_property>
+         <obj_property name="ObjectShortName">signal_M</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider50">
+      <obj_property name="label">END</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#F0E68C</obj_property>
+   </wvobject>
+   <wvobject fp_name="group105" type="group">
+      <obj_property name="label">ASCII - Sender</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_SENDER/i_sender_start" type="logic">
+         <obj_property name="ElementShortName">i_sender_start</obj_property>
+         <obj_property name="ObjectShortName">i_sender_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_SENDER/i_tx_fifo_full" type="logic">
+         <obj_property name="ElementShortName">i_tx_fifo_full</obj_property>
+         <obj_property name="ObjectShortName">i_tx_fifo_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_SENDER/i_sender_data" type="array">
+         <obj_property name="ElementShortName">i_sender_data[72:0]</obj_property>
+         <obj_property name="ObjectShortName">i_sender_data[72:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_SENDER/sw_mode" type="array">
+         <obj_property name="ElementShortName">sw_mode[1:0]</obj_property>
+         <obj_property name="ObjectShortName">sw_mode[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_SENDER/tx_fifo_push" type="logic">
+         <obj_property name="ElementShortName">tx_fifo_push</obj_property>
+         <obj_property name="ObjectShortName">tx_fifo_push</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_SENDER/tx_fifo_push_data" type="array">
+         <obj_property name="ElementShortName">tx_fifo_push_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_fifo_push_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_SENDER/o_sender_busy" type="logic">
+         <obj_property name="ElementShortName">o_sender_busy</obj_property>
+         <obj_property name="ObjectShortName">o_sender_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_SENDER/o_sender_done" type="logic">
+         <obj_property name="ElementShortName">o_sender_done</obj_property>
+         <obj_property name="ObjectShortName">o_sender_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_SENDER/c_state" type="array">
+         <obj_property name="ElementShortName">c_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">c_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_SENDER/idx_reg" type="array">
+         <obj_property name="ElementShortName">idx_reg[3:0]</obj_property>
+         <obj_property name="ObjectShortName">idx_reg[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_SENDER/tx_fifo_push_data_reg" type="array">
+         <obj_property name="ElementShortName">tx_fifo_push_data_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_fifo_push_data_reg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_SENDER/tx_fifo_push_reg" type="logic">
+         <obj_property name="ElementShortName">tx_fifo_push_reg</obj_property>
+         <obj_property name="ObjectShortName">tx_fifo_push_reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_SENDER/o_sender_busy_reg" type="logic">
+         <obj_property name="ElementShortName">o_sender_busy_reg</obj_property>
+         <obj_property name="ObjectShortName">o_sender_busy_reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_ascii_sender_uart/dut/U_ASCII_SENDER/o_sender_done_reg" type="logic">
+         <obj_property name="ElementShortName">o_sender_done_reg</obj_property>
+         <obj_property name="ObjectShortName">o_sender_done_reg</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider106">
+      <obj_property name="label">END</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#F0E68C</obj_property>
+   </wvobject>
+</wave_config>

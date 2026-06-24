@@ -1,0 +1,21 @@
+17:12:59 **** Incremental Build of configuration Debug for project led_blink ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -ID:/Work/OnDeviceAI2/260622_MicroBlaze_GPIO/vitis_workspace/GPIO_Test_wrapper/export/GPIO_Test_wrapper/sw/GPIO_Test_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: led_blink.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/Work/OnDeviceAI2/260622_MicroBlaze_GPIO/vitis_workspace/GPIO_Test_wrapper/export/GPIO_Test_wrapper/sw/GPIO_Test_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "led_blink.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led_blink.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size led_blink.elf  |tee "led_blink.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2072	    268	   3108	   5448	   1548	led_blink.elf
+'Finished building: led_blink.elf.size'
+' '
+
+17:12:59 Build Finished (took 598ms)
+

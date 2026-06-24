@@ -1,0 +1,149 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+[WRITE] we : 1, addr : 57, wdata : 32
+[READ]  we : 0, addr : 57, rdata : xx
+[Pass!] wdata : 32, rdata : xx
+[WRITE] we : 1, addr : d1, wdata : b
+[READ]  we : 0, addr : d1, rdata : b
+[Pass!] wdata : b, rdata : b
+[WRITE] we : 1, addr : 84, wdata : ed
+[READ]  we : 0, addr : 84, rdata : ed
+[Pass!] wdata : ed, rdata : ed
+[WRITE] we : 1, addr : db, wdata : db
+[READ]  we : 0, addr : db, rdata : db
+[Pass!] wdata : db, rdata : db
+[WRITE] we : 1, addr : 20, wdata : ac
+[READ]  we : 0, addr : 20, rdata : ac
+[Pass!] wdata : ac, rdata : ac
+[WRITE] we : 1, addr : e7, wdata : a4
+[READ]  we : 0, addr : e7, rdata : a4
+[Pass!] wdata : a4, rdata : a4
+[WRITE] we : 1, addr : 9a, wdata : c2
+[READ]  we : 0, addr : 9a, rdata : c2
+[Pass!] wdata : c2, rdata : c2
+[WRITE] we : 1, addr : 7f, wdata : ba
+[READ]  we : 0, addr : 7f, rdata : ba
+[Pass!] wdata : ba, rdata : ba
+[WRITE] we : 1, addr : 6f, wdata : 66
+[READ]  we : 0, addr : 6f, rdata : 66
+[Pass!] wdata : 66, rdata : 66
+[WRITE] we : 1, addr : 5e, wdata : 9
+[READ]  we : 0, addr : 5e, rdata : 9
+[Pass!] wdata : 9, rdata : 9
+[WRITE] we : 1, addr : 29, wdata : dd
+[READ]  we : 0, addr : 29, rdata : dd
+[Pass!] wdata : dd, rdata : dd
+[WRITE] we : 1, addr : c3, wdata : 98
+[READ]  we : 0, addr : c3, rdata : 98
+[Pass!] wdata : 98, rdata : 98
+[WRITE] we : 1, addr : 44, wdata : 21
+[READ]  we : 0, addr : 44, rdata : 21
+[Pass!] wdata : 21, rdata : 21
+[WRITE] we : 1, addr : a1, wdata : 6d
+[READ]  we : 0, addr : a1, rdata : 6d
+[Pass!] wdata : 6d, rdata : 6d
+[WRITE] we : 1, addr : fe, wdata : 64
+[READ]  we : 0, addr : fe, rdata : 64
+[Pass!] wdata : 64, rdata : 64
+[WRITE] we : 1, addr : 5, wdata : 42
+[READ]  we : 0, addr : 5, rdata : 42
+[Pass!] wdata : 42, rdata : 42
+[WRITE] we : 1, addr : 85, wdata : a6
+[READ]  we : 0, addr : 85, rdata : a6
+[Pass!] wdata : a6, rdata : a6
+[WRITE] we : 1, addr : af, wdata : 83
+[READ]  we : 0, addr : af, rdata : 83
+[Pass!] wdata : 83, rdata : 83
+[WRITE] we : 1, addr : a, wdata : b4
+[READ]  we : 0, addr : a, rdata : b4
+[Pass!] wdata : b4, rdata : b4
+[WRITE] we : 1, addr : c6, wdata : 8f
+[READ]  we : 0, addr : c6, rdata : 8f
+[Pass!] wdata : 8f, rdata : 8f
+[WRITE] we : 1, addr : 5a, wdata : 75
+[READ]  we : 0, addr : 5a, rdata : 75
+[Pass!] wdata : 75, rdata : 75
+[WRITE] we : 1, addr : 12, wdata : 64
+[READ]  we : 0, addr : 12, rdata : 64
+[Pass!] wdata : 64, rdata : 64
+[WRITE] we : 1, addr : 2a, wdata : d8
+[READ]  we : 0, addr : 2a, rdata : d8
+[Pass!] wdata : d8, rdata : d8
+[WRITE] we : 1, addr : f3, wdata : 84
+[READ]  we : 0, addr : f3, rdata : 84
+[Pass!] wdata : 84, rdata : 84
+[WRITE] we : 1, addr : 4e, wdata : 6
+[READ]  we : 0, addr : 4e, rdata : 6
+[Pass!] wdata : 6, rdata : 6
+[WRITE] we : 1, addr : e9, wdata : 78
+[READ]  we : 0, addr : e9, rdata : 78
+[Pass!] wdata : 78, rdata : 78
+[WRITE] we : 1, addr : de, wdata : dc
+[READ]  we : 0, addr : de, rdata : dc
+[Pass!] wdata : dc, rdata : dc
+[WRITE] we : 1, addr : fc, wdata : 2c
+[READ]  we : 0, addr : fc, rdata : 2c
+[Pass!] wdata : 2c, rdata : 2c
+[WRITE] we : 1, addr : e2, wdata : e5
+[READ]  we : 0, addr : e2, rdata : e5
+[Pass!] wdata : e5, rdata : e5
+[WRITE] we : 1, addr : a4, wdata : c1
+[READ]  we : 0, addr : a4, rdata : c1
+[Pass!] wdata : c1, rdata : c1
+[WRITE] we : 1, addr : c2, wdata : a1
+[READ]  we : 0, addr : c2, rdata : a1
+[Pass!] wdata : a1, rdata : a1
+[WRITE] we : 1, addr : ed, wdata : a4
+[READ]  we : 0, addr : ed, rdata : a4
+[Pass!] wdata : a4, rdata : a4
+[WRITE] we : 1, addr : 86, wdata : 92
+[READ]  we : 0, addr : 86, rdata : 92
+[Pass!] wdata : 92, rdata : 92
+[WRITE] we : 1, addr : 65, wdata : 48
+[READ]  we : 0, addr : 65, rdata : 48
+[Pass!] wdata : 48, rdata : 48
+[WRITE] we : 1, addr : 33, wdata : 53
+[READ]  we : 0, addr : 33, rdata : 53
+[Pass!] wdata : 53, rdata : 53
+[WRITE] we : 1, addr : ed, wdata : b9
+[READ]  we : 0, addr : ed, rdata : b9
+[Pass!] wdata : b9, rdata : b9
+[WRITE] we : 1, addr : e5, wdata : 52
+[READ]  we : 0, addr : e5, rdata : 52
+[Pass!] wdata : 52, rdata : 52
+[WRITE] we : 1, addr : 2, wdata : 18
+[READ]  we : 0, addr : 2, rdata : 18
+[Pass!] wdata : 18, rdata : 18
+[WRITE] we : 1, addr : a5, wdata : ef
+[READ]  we : 0, addr : a5, rdata : ef
+[Pass!] wdata : ef, rdata : ef
+[WRITE] we : 1, addr : d1, wdata : 8a
+[READ]  we : 0, addr : d1, rdata : 8a
+[Pass!] wdata : 8a, rdata : 8a
+[WRITE] we : 1, addr : 41, wdata : d3
+[READ]  we : 0, addr : 41, rdata : d3
+[Pass!] wdata : d3, rdata : d3
+[WRITE] we : 1, addr : a2, wdata : e7
+[READ]  we : 0, addr : a2, rdata : e7
+[Pass!] wdata : e7, rdata : e7
+[WRITE] we : 1, addr : c2, wdata : 74
+[READ]  we : 0, addr : c2, rdata : 74
+[Pass!] wdata : 74, rdata : 74
+[WRITE] we : 1, addr : 71, wdata : 4
+[READ]  we : 0, addr : 71, rdata : 4
+[Pass!] wdata : 4, rdata : 4
+[WRITE] we : 1, addr : 47, wdata : 14
+[READ]  we : 0, addr : 47, rdata : 14
+[Pass!] wdata : 14, rdata : 14
+[WRITE] we : 1, addr : eb, wdata : a
+[READ]  we : 0, addr : eb, rdata : a
+[Pass!] wdata : a, rdata : a
+[WRITE] we : 1, addr : 88, wdata : 5c
+[READ]  we : 0, addr : 88, rdata : 5c
+[Pass!] wdata : 5c, rdata : 5c
+[WRITE] we : 1, addr : e, wdata : cf
+[READ]  we : 0, addr : e, rdata : cf
+[Pass!] wdata : cf, rdata : cf
+[WRITE] we : 1, addr : 70, wdata : f9
+[READ]  we : 0, addr : 70, rdata : f9
+[Pass!] wdata : f9, rdata : f9

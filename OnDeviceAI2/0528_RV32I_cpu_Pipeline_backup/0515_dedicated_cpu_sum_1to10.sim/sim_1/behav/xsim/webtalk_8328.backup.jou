@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May 20 16:05:04 2026
+# Process ID: 8328
+# Current directory: D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.sim/sim_1/behav/xsim/xsim.dir/tb_rv32i_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.sim/sim_1/behav/xsim/xsim.dir/tb_rv32i_behav/webtalk/xsim_webtalk.tcl -notrace

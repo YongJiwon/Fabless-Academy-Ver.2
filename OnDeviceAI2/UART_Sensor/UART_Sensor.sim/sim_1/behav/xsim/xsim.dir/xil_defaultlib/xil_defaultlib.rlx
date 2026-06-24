@@ -1,0 +1,25 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sim_1/new/tb_top_ascii_sender_uart.v,1777976747,verilog,,,,tb_top_ascii_sender_uart,,,,,,,,
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/ascii_decoder.v,1777987798,verilog,,D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/ascii_sender.v,,ascii_decoder,,,,,,,,
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/ascii_sender.v,1777862425,verilog,,D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/btn_debounce.v,,ascii_sender,,,,,,,,
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/btn_debounce.v,1777988756,verilog,,D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/control_unit.v,,btn_debounce;button_debounce,,,,,,,,
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/control_unit.v,1777988826,verilog,,D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/dht11_controller.v,,control_unit;dht11_control_unit;sr04_control_unit,,,,,,,,
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/dht11_controller.v,1777989186,verilog,,D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fifo.v,,dht11_controller,,,,,,,,
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fifo.v,1777987994,verilog,,D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v,,fifo;fifo_control_unit;register_file,,,,,,,,
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v,1777988047,verilog,,D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/sender_data_splitter.v,,bcd;bcd_sensor;clk_div_1khz;comparator;counter_n;decoder_2x4;digit_splitter;digit_splitter_sensor;fnd_controller;mux_2x_1;mux_8x1;mux_watch_2x1,,,,,,,,
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/sender_data_splitter.v,1777988166,verilog,,D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/signal_decision.v,,bits_to_ascii;sender_data_splitter,,,,,,,,
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/signal_decision.v,1777988184,verilog,,D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/sr04_controller.v,,signal_decision,,,,,,,,
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/sr04_controller.v,1777880358,verilog,,D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/stop_watch_control_unit.v,,sr04_controller,,,,,,,,
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/stop_watch_control_unit.v,1777861876,verilog,,D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/stopwatch_datapath.v,,stop_watch_control_unit,,,,,,,,
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/stopwatch_datapath.v,1777716803,verilog,,D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/tick_gen_us.v,,stopwatch_datapath;tick_counter;tick_gen_100hz,,,,,,,,
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/tick_gen_us.v,1777861913,verilog,,D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/top_uart_time_sensor.v,,tick_gen_us,,,,,,,,
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/top_uart_time_sensor.v,1777889221,verilog,,D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/uart.v,,mux_2sel;mux_4x_1_top;top_uart_time_sensor,,,,,,,,
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/uart.v,1777862270,verilog,,D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/uart_rx.v,,baud_tick_gen;uart,,,,,,,,
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/uart_rx.v,1777879412,verilog,,D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/uart_tx.v,,uart_rx,,,,,,,,
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/uart_tx.v,1777879405,verilog,,D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/watch_control_unit.v,,uart_tx,,,,,,,,
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/watch_control_unit.v,1777862291,verilog,,D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/watch_datapath.v,,watch_control_unit,,,,,,,,
+D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/watch_datapath.v,1777862318,verilog,,D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sim_1/new/tb_top_ascii_sender_uart.v,,watch_datapath;watch_tick_counter;watch_tick_gen_100hz,,,,,,,,

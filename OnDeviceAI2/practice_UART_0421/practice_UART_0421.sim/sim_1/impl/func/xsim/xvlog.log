@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/practice_UART_0421/practice_UART_0421.sim/sim_1/impl/func/xsim/tb_uart_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module baud_tick_gen
+INFO: [VRFC 10-311] analyzing module debounce
+INFO: [VRFC 10-311] analyzing module uart
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/practice_UART_0421/practice_UART_0421.srcs/sim_1/new/tb_uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_uart

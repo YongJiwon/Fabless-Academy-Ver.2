@@ -1,0 +1,3 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 19410420 ns : File "D:/Work/OnDeviceAI2/practice_UART_0421/practice_UART_0421.srcs/sim_1/new/tb_uart_loopback.v" Line 78

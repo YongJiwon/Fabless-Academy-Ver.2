@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../UART_Sensor.srcs/sources_1/new/ascii_decoder.v" \
+"../../../../UART_Sensor.srcs/sources_1/new/ascii_sender.v" \
+"../../../../UART_Sensor.srcs/sources_1/new/btn_debounce.v" \
+"../../../../UART_Sensor.srcs/sources_1/new/control_unit.v" \
+"../../../../UART_Sensor.srcs/sources_1/new/dht11_controller.v" \
+"../../../../UART_Sensor.srcs/sources_1/new/fifo.v" \
+"../../../../UART_Sensor.srcs/sources_1/new/fnd_controller.v" \
+"../../../../UART_Sensor.srcs/sources_1/new/sender_data_splitter.v" \
+"../../../../UART_Sensor.srcs/sources_1/new/signal_decision.v" \
+"../../../../UART_Sensor.srcs/sources_1/new/sr04_controller.v" \
+"../../../../UART_Sensor.srcs/sources_1/new/stop_watch_control_unit.v" \
+"../../../../UART_Sensor.srcs/sources_1/new/stopwatch_datapath.v" \
+"../../../../UART_Sensor.srcs/sources_1/new/tick_gen_us.v" \
+"../../../../UART_Sensor.srcs/sources_1/new/top_uart_time_sensor.v" \
+"../../../../UART_Sensor.srcs/sources_1/new/uart.v" \
+"../../../../UART_Sensor.srcs/sources_1/new/uart_rx.v" \
+"../../../../UART_Sensor.srcs/sources_1/new/uart_tx.v" \
+"../../../../UART_Sensor.srcs/sources_1/new/watch_control_unit.v" \
+"../../../../UART_Sensor.srcs/sources_1/new/watch_datapath.v" \
+"../../../../UART_Sensor.srcs/sim_1/new/tb_top_ascii_sender_uart.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

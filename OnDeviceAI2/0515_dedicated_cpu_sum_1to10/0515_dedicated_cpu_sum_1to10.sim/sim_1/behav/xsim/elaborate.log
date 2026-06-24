@@ -1,0 +1,23 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 8f2cc8da7023485da490aba254b3e4f5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_dedicated_cpu_behav xil_defaultlib.tb_dedicated_cpu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'data_out' [D:/Work/OnDeviceAI2/0515_dedicated_cpu_sum_1to10/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/dedicated_cpu.sv:61]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'in1' [D:/Work/OnDeviceAI2/0515_dedicated_cpu_sum_1to10/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/dedicated_cpu.sv:72]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'data_in' [D:/Work/OnDeviceAI2/0515_dedicated_cpu_sum_1to10/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/dedicated_cpu.sv:87]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux_2x1
+Compiling module xil_defaultlib.register
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.comparator
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.dedicated_cpu
+Compiling module xil_defaultlib.tb_dedicated_cpu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_dedicated_cpu_behav

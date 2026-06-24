@@ -1,0 +1,3 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 115 ns : File "D:/Work/OnDeviceAI2/0519_dedicated_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sim_1/new/tb_rv32i.sv" Line 18

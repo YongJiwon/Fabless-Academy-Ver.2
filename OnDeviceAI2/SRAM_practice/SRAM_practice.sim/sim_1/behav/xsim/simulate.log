@@ -1,0 +1,192 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+                   0 : [GEN] addr =  99, wdata = 113, we = 0, rdata =   0
+                   0 : [DRV] addr =  99, wdata = 113, we = 0, rdata =   0
+                5000 : [MON] addr =   0, wdata =   0, we = 0, rdata =   0
+                5000 : [SCB] addr =   0, wdata =   0, we = 0, rdata =   0
+                5000 : PASS
+                5000 : [GEN] addr =  31, wdata = 170, we = 1, rdata =   0
+                6000 : [DRV] addr =  31, wdata = 170, we = 1, rdata =   0
+               15000 : [MON] addr =  99, wdata = 113, we = 0, rdata =   0
+               15000 : [SCB] addr =  99, wdata = 113, we = 0, rdata =   0
+               15000 : PASS
+               15000 : [GEN] addr = 248, wdata = 255, we = 1, rdata =   0
+               16000 : [DRV] addr = 248, wdata = 255, we = 1, rdata =   0
+               25000 : [MON] addr =  31, wdata = 170, we = 1, rdata =   0
+               25000 : [SCB] addr =  31, wdata = 170, we = 1, rdata =   0
+               25000 : [GEN] addr = 221, wdata = 120, we = 0, rdata =   0
+               26000 : [DRV] addr = 221, wdata = 120, we = 0, rdata =   0
+               35000 : [MON] addr = 248, wdata = 255, we = 1, rdata =   0
+               35000 : [SCB] addr = 248, wdata = 255, we = 1, rdata =   0
+               35000 : [GEN] addr = 174, wdata = 189, we = 0, rdata =   0
+               36000 : [DRV] addr = 174, wdata = 189, we = 0, rdata =   0
+               45000 : [MON] addr = 221, wdata = 120, we = 0, rdata =   0
+               45000 : [SCB] addr = 221, wdata = 120, we = 0, rdata =   0
+               45000 : PASS
+               45000 : [GEN] addr =  71, wdata =  38, we = 0, rdata =   0
+               46000 : [DRV] addr =  71, wdata =  38, we = 0, rdata =   0
+               55000 : [MON] addr = 174, wdata = 189, we = 0, rdata =   0
+               55000 : [SCB] addr = 174, wdata = 189, we = 0, rdata =   0
+               55000 : PASS
+               55000 : [GEN] addr = 180, wdata = 229, we = 1, rdata =   0
+               56000 : [DRV] addr = 180, wdata = 229, we = 1, rdata =   0
+               65000 : [MON] addr =  71, wdata =  38, we = 0, rdata =   0
+               65000 : [SCB] addr =  71, wdata =  38, we = 0, rdata =   0
+               65000 : PASS
+               65000 : [GEN] addr =  82, wdata = 169, we = 0, rdata =   0
+               66000 : [DRV] addr =  82, wdata = 169, we = 0, rdata =   0
+               75000 : [MON] addr = 180, wdata = 229, we = 1, rdata =   0
+               75000 : [SCB] addr = 180, wdata = 229, we = 1, rdata =   0
+               75000 : [GEN] addr = 199, wdata = 174, we = 1, rdata =   0
+               76000 : [DRV] addr = 199, wdata = 174, we = 1, rdata =   0
+               85000 : [MON] addr =  82, wdata = 169, we = 0, rdata =   0
+               85000 : [SCB] addr =  82, wdata = 169, we = 0, rdata =   0
+               85000 : PASS
+               85000 : [GEN] addr =  24, wdata = 219, we = 1, rdata =   0
+               86000 : [DRV] addr =  24, wdata = 219, we = 1, rdata =   0
+               95000 : [MON] addr = 199, wdata = 174, we = 1, rdata =   0
+               95000 : [SCB] addr = 199, wdata = 174, we = 1, rdata =   0
+               95000 : [GEN] addr = 124, wdata = 225, we = 1, rdata =   0
+               96000 : [DRV] addr = 124, wdata = 225, we = 1, rdata =   0
+              105000 : [MON] addr =  24, wdata = 219, we = 1, rdata =   0
+              105000 : [SCB] addr =  24, wdata = 219, we = 1, rdata =   0
+              105000 : [GEN] addr = 227, wdata = 107, we = 0, rdata =   0
+              106000 : [DRV] addr = 227, wdata = 107, we = 0, rdata =   0
+              115000 : [MON] addr = 124, wdata = 225, we = 1, rdata =   0
+              115000 : [SCB] addr = 124, wdata = 225, we = 1, rdata =   0
+              115000 : [GEN] addr = 166, wdata = 181, we = 1, rdata =   0
+              116000 : [DRV] addr = 166, wdata = 181, we = 1, rdata =   0
+              125000 : [MON] addr = 227, wdata = 107, we = 0, rdata =   0
+              125000 : [SCB] addr = 227, wdata = 107, we = 0, rdata =   0
+              125000 : PASS
+              125000 : [GEN] addr = 135, wdata = 172, we = 0, rdata =   0
+              126000 : [DRV] addr = 135, wdata = 172, we = 0, rdata =   0
+              135000 : [MON] addr = 166, wdata = 181, we = 1, rdata =   0
+              135000 : [SCB] addr = 166, wdata = 181, we = 1, rdata =   0
+              135000 : [GEN] addr = 109, wdata =  92, we = 0, rdata =   0
+              136000 : [DRV] addr = 109, wdata =  92, we = 0, rdata =   0
+              145000 : [MON] addr = 135, wdata = 172, we = 0, rdata =   0
+              145000 : [SCB] addr = 135, wdata = 172, we = 0, rdata =   0
+              145000 : PASS
+              145000 : [GEN] addr = 219, wdata =  98, we = 1, rdata =   0
+              146000 : [DRV] addr = 219, wdata =  98, we = 1, rdata =   0
+              155000 : [MON] addr = 109, wdata =  92, we = 0, rdata =   0
+              155000 : [SCB] addr = 109, wdata =  92, we = 0, rdata =   0
+              155000 : PASS
+              155000 : [GEN] addr = 219, wdata = 189, we = 1, rdata =   0
+              156000 : [DRV] addr = 219, wdata = 189, we = 1, rdata =   0
+              165000 : [MON] addr = 219, wdata =  98, we = 1, rdata =   0
+              165000 : [SCB] addr = 219, wdata =  98, we = 1, rdata =   0
+              165000 : [GEN] addr =  80, wdata = 186, we = 0, rdata =   0
+              166000 : [DRV] addr =  80, wdata = 186, we = 0, rdata =   0
+              175000 : [MON] addr = 219, wdata = 189, we = 1, rdata =  98
+              175000 : [SCB] addr = 219, wdata = 189, we = 1, rdata =  98
+              175000 : [GEN] addr = 252, wdata = 174, we = 1, rdata =   0
+              176000 : [DRV] addr = 252, wdata = 174, we = 1, rdata =   0
+              185000 : [MON] addr =  80, wdata = 186, we = 0, rdata =   0
+              185000 : [SCB] addr =  80, wdata = 186, we = 0, rdata =   0
+              185000 : PASS
+              185000 : [GEN] addr = 225, wdata =  95, we = 1, rdata =   0
+              186000 : [DRV] addr = 225, wdata =  95, we = 1, rdata =   0
+              195000 : [MON] addr = 252, wdata = 174, we = 1, rdata =   0
+              195000 : [SCB] addr = 252, wdata = 174, we = 1, rdata =   0
+              195000 : [GEN] addr = 254, wdata =  36, we = 0, rdata =   0
+              196000 : [DRV] addr = 254, wdata =  36, we = 0, rdata =   0
+              205000 : [MON] addr = 225, wdata =  95, we = 1, rdata =   0
+              205000 : [SCB] addr = 225, wdata =  95, we = 1, rdata =   0
+              205000 : [GEN] addr = 212, wdata = 233, we = 0, rdata =   0
+              206000 : [DRV] addr = 212, wdata = 233, we = 0, rdata =   0
+              215000 : [MON] addr = 254, wdata =  36, we = 0, rdata =   0
+              215000 : [SCB] addr = 254, wdata =  36, we = 0, rdata =   0
+              215000 : PASS
+              215000 : [GEN] addr = 251, wdata = 162, we = 0, rdata =   0
+              216000 : [DRV] addr = 251, wdata = 162, we = 0, rdata =   0
+              225000 : [MON] addr = 212, wdata = 233, we = 0, rdata =   0
+              225000 : [SCB] addr = 212, wdata = 233, we = 0, rdata =   0
+              225000 : PASS
+              225000 : [GEN] addr =  73, wdata = 211, we = 1, rdata =   0
+              226000 : [DRV] addr =  73, wdata = 211, we = 1, rdata =   0
+              235000 : [MON] addr = 251, wdata = 162, we = 0, rdata =   0
+              235000 : [SCB] addr = 251, wdata = 162, we = 0, rdata =   0
+              235000 : PASS
+              235000 : [GEN] addr =  98, wdata = 249, we = 0, rdata =   0
+              236000 : [DRV] addr =  98, wdata = 249, we = 0, rdata =   0
+              245000 : [MON] addr =  73, wdata = 211, we = 1, rdata =   0
+              245000 : [SCB] addr =  73, wdata = 211, we = 1, rdata =   0
+              245000 : [GEN] addr =  80, wdata =  31, we = 0, rdata =   0
+              246000 : [DRV] addr =  80, wdata =  31, we = 0, rdata =   0
+              255000 : [MON] addr =  98, wdata = 249, we = 0, rdata =   0
+              255000 : [SCB] addr =  98, wdata = 249, we = 0, rdata =   0
+              255000 : PASS
+              255000 : [GEN] addr =  81, wdata = 240, we = 0, rdata =   0
+              256000 : [DRV] addr =  81, wdata = 240, we = 0, rdata =   0
+              265000 : [MON] addr =  80, wdata =  31, we = 0, rdata =   0
+              265000 : [SCB] addr =  80, wdata =  31, we = 0, rdata =   0
+              265000 : PASS
+              265000 : [GEN] addr = 184, wdata = 118, we = 0, rdata =   0
+              266000 : [DRV] addr = 184, wdata = 118, we = 0, rdata =   0
+              275000 : [MON] addr =  81, wdata = 240, we = 0, rdata =   0
+              275000 : [SCB] addr =  81, wdata = 240, we = 0, rdata =   0
+              275000 : PASS
+              275000 : [GEN] addr = 158, wdata = 164, we = 0, rdata =   0
+              276000 : [DRV] addr = 158, wdata = 164, we = 0, rdata =   0
+              285000 : [MON] addr = 184, wdata = 118, we = 0, rdata =   0
+              285000 : [SCB] addr = 184, wdata = 118, we = 0, rdata =   0
+              285000 : PASS
+              285000 : [GEN] addr = 193, wdata = 121, we = 1, rdata =   0
+              286000 : [DRV] addr = 193, wdata = 121, we = 1, rdata =   0
+              295000 : [MON] addr = 158, wdata = 164, we = 0, rdata =   0
+              295000 : [SCB] addr = 158, wdata = 164, we = 0, rdata =   0
+              295000 : PASS
+              295000 : [GEN] addr =  55, wdata = 130, we = 1, rdata =   0
+              296000 : [DRV] addr =  55, wdata = 130, we = 1, rdata =   0
+              305000 : [MON] addr = 193, wdata = 121, we = 1, rdata =   0
+              305000 : [SCB] addr = 193, wdata = 121, we = 1, rdata =   0
+              305000 : [GEN] addr =  48, wdata =  70, we = 1, rdata =   0
+              306000 : [DRV] addr =  48, wdata =  70, we = 1, rdata =   0
+              315000 : [MON] addr =  55, wdata = 130, we = 1, rdata =   0
+              315000 : [SCB] addr =  55, wdata = 130, we = 1, rdata =   0
+              315000 : [GEN] addr = 107, wdata = 106, we = 0, rdata =   0
+              316000 : [DRV] addr = 107, wdata = 106, we = 0, rdata =   0
+              325000 : [MON] addr =  48, wdata =  70, we = 1, rdata =   0
+              325000 : [SCB] addr =  48, wdata =  70, we = 1, rdata =   0
+              325000 : [GEN] addr = 235, wdata = 245, we = 0, rdata =   0
+              326000 : [DRV] addr = 235, wdata = 245, we = 0, rdata =   0
+              335000 : [MON] addr = 107, wdata = 106, we = 0, rdata =   0
+              335000 : [SCB] addr = 107, wdata = 106, we = 0, rdata =   0
+              335000 : PASS
+              335000 : [GEN] addr =  39, wdata =  19, we = 1, rdata =   0
+              336000 : [DRV] addr =  39, wdata =  19, we = 1, rdata =   0
+              345000 : [MON] addr = 235, wdata = 245, we = 0, rdata =   0
+              345000 : [SCB] addr = 235, wdata = 245, we = 0, rdata =   0
+              345000 : PASS
+              345000 : [GEN] addr =  92, wdata = 221, we = 0, rdata =   0
+              346000 : [DRV] addr =  92, wdata = 221, we = 0, rdata =   0
+              355000 : [MON] addr =  39, wdata =  19, we = 1, rdata =   0
+              355000 : [SCB] addr =  39, wdata =  19, we = 1, rdata =   0
+              355000 : [GEN] addr =  20, wdata =  65, we = 0, rdata =   0
+              356000 : [DRV] addr =  20, wdata =  65, we = 0, rdata =   0
+              365000 : [MON] addr =  92, wdata = 221, we = 0, rdata =   0
+              365000 : [SCB] addr =  92, wdata = 221, we = 0, rdata =   0
+              365000 : PASS
+              365000 : [GEN] addr = 193, wdata =  23, we = 1, rdata =   0
+              366000 : [DRV] addr = 193, wdata =  23, we = 1, rdata =   0
+              375000 : [MON] addr =  20, wdata =  65, we = 0, rdata =   0
+              375000 : [SCB] addr =  20, wdata =  65, we = 0, rdata =   0
+              375000 : PASS
+              375000 : [GEN] addr = 190, wdata =  94, we = 1, rdata =   0
+              376000 : [DRV] addr = 190, wdata =  94, we = 1, rdata =   0
+              385000 : [MON] addr = 193, wdata =  23, we = 1, rdata = 121
+              385000 : [SCB] addr = 193, wdata =  23, we = 1, rdata = 121
+              385000 : [GEN] addr = 165, wdata = 233, we = 0, rdata =   0
+              386000 : [DRV] addr = 165, wdata = 233, we = 0, rdata =   0
+              395000 : [MON] addr = 190, wdata =  94, we = 1, rdata =   0
+              395000 : [SCB] addr = 190, wdata =  94, we = 1, rdata =   0
+env run task end
+____________________________
+** SRAM IP Verification **
+** total test run num =          40 **
+** pass num =          22 **
+** fail num =           0 **
+*****************************
+$stop called at time : 405 ns : File "D:/Work/OnDeviceAI2/SRAM_practice/SRAM_practice.srcs/sim_1/new/tb_ram_sv.sv" Line 166

@@ -1,0 +1,11 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Work/OnDeviceAI2/20260407_adder/20260407_adder.srcs/sources_1/new/fnd_controller.v,1775713314,verilog,,,,bcd;clk_div_1khz;counter_4;decoder_2X4;digit_splitter;fnd_controller;mux_4x1,,,,,,,,
+D:/Work/OnDeviceAI2/counter_10000/counter_10000.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/Work/OnDeviceAI2/counter_10000/counter_10000.srcs/sim_1/new/tb_button_debounce.v,1776238063,verilog,,,,tb_button_debounce,,,,,,,,
+D:/Work/OnDeviceAI2/counter_10000/counter_10000.srcs/sim_1/new/tb_datapath.v,1775719370,verilog,,,,tb_datapath,,,,,,,,
+D:/Work/OnDeviceAI2/counter_10000/counter_10000.srcs/sim_1/new/tb_tick_gen.v,1775717618,verilog,,,,tb_tick_gen,,,,,,,,
+D:/Work/OnDeviceAI2/counter_10000/counter_10000.srcs/sources_1/new/button_debounce.v,1776237188,verilog,,D:/Work/OnDeviceAI2/counter_10000/counter_10000.srcs/sim_1/new/tb_button_debounce.v,,button_debounce,,,,,,,,
+D:/Work/OnDeviceAI2/counter_10000/counter_10000.srcs/sources_1/new/counter_10000.v,1775718185,verilog,,D:/Work/OnDeviceAI2/counter_10000/counter_10000.srcs/sim_1/new/tb_datapath.v,,clk_tick_gen;counter_10000;datapath;tick_counter,,,,,,,,

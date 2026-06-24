@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Work/OnDeviceAI2/20260601_Practice/20260601_Practice.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/Work/OnDeviceAI2/20260601_Practice/20260601_Practice.srcs/sim_1/new/tb_ALU.sv,1780282633,systemVerilog,,,,alu_intf;tb_ALU,,uvm,,,,,,
+D:/Work/OnDeviceAI2/20260601_Practice/20260601_Practice.srcs/sim_1/new/tb_ram.sv,1780294468,systemVerilog,,,,ram_intf;tb_ram,,uvm,,,,,,
+D:/Work/OnDeviceAI2/20260601_Practice/20260601_Practice.srcs/sources_1/new/ALU.sv,1780280941,systemVerilog,D:/Work/OnDeviceAI2/20260601_Practice/20260601_Practice.srcs/sim_1/new/tb_ALU.sv,D:/Work/OnDeviceAI2/20260601_Practice/20260601_Practice.srcs/sim_1/new/tb_ALU.sv,,$unit_ALU_sv;ALU,,uvm,,,,,,
+D:/Work/OnDeviceAI2/20260601_Practice/20260601_Practice.srcs/sources_1/new/ram.sv,1780288047,systemVerilog,D:/Work/OnDeviceAI2/20260601_Practice/20260601_Practice.srcs/sim_1/new/tb_ram.sv,D:/Work/OnDeviceAI2/20260601_Practice/20260601_Practice.srcs/sim_1/new/tb_ram.sv,,$unit_ram_sv;ram,,uvm,,,,,,

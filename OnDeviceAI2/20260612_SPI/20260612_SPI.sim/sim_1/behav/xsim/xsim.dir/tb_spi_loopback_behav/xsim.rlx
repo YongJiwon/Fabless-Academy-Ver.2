@@ -1,0 +1,12 @@
+
+{ 
+    crc :  18257813492866428722  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 8cf8296392b04a97848a3e89b4517ca7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_spi_loopback_behav xil_defaultlib.tb_spi_loopback xil_defaultlib.glbl" , 
+    buildDate : "Nov 18 2020" , 
+    buildTime : "09:47:47" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2020.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/tb_spi_loopback_behav/xsimk.exe\"   \"xsim.dir/tb_spi_loopback_behav/obj/xsim_0.win64.obj\" \"xsim.dir/tb_spi_loopback_behav/obj/xsim_1.win64.obj\" -L\"C:\\Xilinx\\Vivado\\2020.2\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

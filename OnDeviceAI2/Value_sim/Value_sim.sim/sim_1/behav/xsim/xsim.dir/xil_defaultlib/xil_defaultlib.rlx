@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Work/OnDeviceAI2/Value_sim/Value_sim.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/Work/OnDeviceAI2/Value_sim/Value_sim.srcs/sim_1/new/TOP.v,1775787649,verilog,,D:/Work/OnDeviceAI2/Value_sim/Value_sim.srcs/sources_1/new/seq_det_mealy.v,,TOP,,,,,,,,
+D:/Work/OnDeviceAI2/Value_sim/Value_sim.srcs/sim_1/new/tb_seq_set_mealy.v,1776144763,verilog,,,,tb_seq_det_mealy,,,,,,,,
+D:/Work/OnDeviceAI2/Value_sim/Value_sim.srcs/sources_1/new/seq_det_mealy.v,1776145543,verilog,,D:/Work/OnDeviceAI2/Value_sim/Value_sim.srcs/sim_1/new/tb_seq_set_mealy.v,,seq_det_mealy,,,,,,,,

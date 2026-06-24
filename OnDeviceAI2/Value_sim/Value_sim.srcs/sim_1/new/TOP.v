@@ -1,0 +1,31 @@
+`timescale 1ns / 1ps
+
+
+
+module TOP();
+
+    integer intA, intB, intC,intD;
+    
+    reg [3:0]d ,f;
+    initial begin
+        intA = -12/4;
+        intB = -'d12/4;
+        intC = -'sd12/4;
+        intD = -4'sd12/4;
+
+        $display("%d, %d, %d,  %d,",intA,intB,intC,intD);
+
+        d = 4'b10x0;
+        f = 4'b1xxx;
+
+        if (d == f) d =1;
+        else d =0;
+        $display("%b",d);
+
+
+        $stop;
+    end
+
+
+
+endmodule

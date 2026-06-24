@@ -1,0 +1,53 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xparameters.h"
+#include "sleep.h"
+#include <stdint.h>
+
+
+#define XPAR_LED_F_0_S00_AXI_BASEADDR XPAR_GPIO_0_S00_AXI_BASEADDR
+#define GPIOA_CR		(*(uint32_t *) (XPAR_GPIO_0_S00_AXI_BASEADDR + 0x00))
+#define GPIOA_IDR		(*(uint32_t *) (XPAR_GPIO_0_S00_AXI_BASEADDR + 0x04))
+#define GPIOA_ODR		(*(uint32_t *) (XPAR_GPIO_0_S00_AXI_BASEADDR + 0x08))
+
+
+
+int main()
+
+{
+
+
+
+    init_platform();
+
+    GPIOA_CR = 0xffff;
+    GPIOA_ODR = 0x0000;
+    usleep(200000);
+    while(1)
+
+    {
+
+    	if(!GPIOA_ODR == 0xff){
+    		GPIOA_ODR += 0x04;
+    		usleep(200000);
+    	}
+
+    	else if(!GPIOA_ODR == 0x00){
+
+    	    GPIOA_ODR -= 0x04;
+
+    	    usleep(200000);
+
+    	}
+
+    }
+
+
+
+
+
+
+
+    return 0;
+
+}

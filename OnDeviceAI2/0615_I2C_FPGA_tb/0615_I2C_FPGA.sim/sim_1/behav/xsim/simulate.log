@@ -1,0 +1,5 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+[TB] Send UART byte 0xa5 to master at 395000
+[PASS] Slave UART TX returned 0xa5
+$finish called at time : 218265 ns : File "D:/Work/OnDeviceAI2/0615_I2C_FPGA_tb/0615_I2C_FPGA.srcs/sim_1/new/tb_uart_i2c_system.sv" Line 122

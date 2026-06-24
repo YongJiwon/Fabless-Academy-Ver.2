@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Work/OnDeviceAI2/20260416_Stopwatch_watch/20260416_Stopwatch_watch.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/Work/OnDeviceAI2/20260416_Stopwatch_watch/20260416_Stopwatch_watch.srcs/sim_1/new/tb_stopwatch_datapath.v,1776315591,verilog,,,,tb_stopwatch_datapath,,,,,,,,
+D:/Work/OnDeviceAI2/20260416_Stopwatch_watch/20260416_Stopwatch_watch.srcs/sim_1/new/tb_tick_gen_100hz.v,1776304412,verilog,,,,tb_tick_gen_100hz,,,,,,,,
+D:/Work/OnDeviceAI2/20260416_Stopwatch_watch/20260416_Stopwatch_watch.srcs/sources_1/new/stopwatch_datapath.v,1776314442,verilog,,D:/Work/OnDeviceAI2/20260416_Stopwatch_watch/20260416_Stopwatch_watch.srcs/sim_1/new/tb_stopwatch_datapath.v,,stopwatch_datapath;tick_counter;tick_gen_100hz,,,,,,,,

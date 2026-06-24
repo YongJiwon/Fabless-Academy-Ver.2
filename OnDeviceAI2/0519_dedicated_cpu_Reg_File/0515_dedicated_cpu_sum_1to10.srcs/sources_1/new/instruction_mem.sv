@@ -1,0 +1,18 @@
+`timescale 1ns / 1ps
+
+module instruction_mem(
+    input logic [31:0] instr_addr,
+    output logic [31:0] instr_code
+
+
+    );
+
+    logic [31:0] instr_rom[0:15];
+
+    initial begin
+        instr_rom[0] = 32'h0031_02b3;
+        instr_rom[1] = 32'h0041_82b3;
+    end
+    assign instr_code = instr_rom[instr_addr];
+
+endmodule

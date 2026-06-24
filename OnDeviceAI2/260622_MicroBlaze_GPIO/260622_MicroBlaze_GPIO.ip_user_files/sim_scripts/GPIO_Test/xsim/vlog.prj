@@ -1,0 +1,13 @@
+verilog xil_defaultlib --include "../../../../260622_MicroBlaze_GPIO.gen/sources_1/bd/GPIO_Test/ipshared/d0f7" --include "../../../../260622_MicroBlaze_GPIO.gen/sources_1/bd/GPIO_Test/ipshared/ec67/hdl" \
+"../../../bd/GPIO_Test/ip/GPIO_Test_lmb_bram_0/sim/GPIO_Test_lmb_bram_0.v" \
+"../../../bd/GPIO_Test/ip/GPIO_Test_clk_wiz_1_0/GPIO_Test_clk_wiz_1_0_clk_wiz.v" \
+"../../../bd/GPIO_Test/ip/GPIO_Test_clk_wiz_1_0/GPIO_Test_clk_wiz_1_0.v" \
+"../../../bd/GPIO_Test/ip/GPIO_Test_xbar_0/sim/GPIO_Test_xbar_0.v" \
+"../../../bd/GPIO_Test/ipshared/41d9/hdl/gpio_v1_0_S00_AXI.v" \
+"../../../bd/GPIO_Test/ipshared/41d9/hdl/gpio_v1_0.v" \
+"../../../bd/GPIO_Test/ip/GPIO_Test_gpio_0_0/sim/GPIO_Test_gpio_0_0.v" \
+"../../../bd/GPIO_Test/sim/GPIO_Test.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

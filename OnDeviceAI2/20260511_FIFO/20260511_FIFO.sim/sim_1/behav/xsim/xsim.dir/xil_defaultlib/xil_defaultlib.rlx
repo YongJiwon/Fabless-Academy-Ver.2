@@ -1,0 +1,12 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Work/OnDeviceAI2/20260511_FIFO/20260511_FIFO.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/Work/OnDeviceAI2/20260511_FIFO/20260511_FIFO.srcs/sim_1/new/tb_fifo_sv.sv,1778650242,systemVerilog,,,,fifo_interface;tb_fifo_sv,,uvm,,,,,,
+D:/Work/OnDeviceAI2/20260511_FIFO/20260511_FIFO.srcs/sim_1/new/tb_uart_fifo_top.sv,1778822306,systemVerilog,,,,tb_uart_fifo_top;uart_interface,,uvm,,,,,,
+D:/Work/OnDeviceAI2/20260511_FIFO/20260511_FIFO.srcs/sources_1/new/fifo_sv.sv,1778630612,systemVerilog,D:/Work/OnDeviceAI2/20260511_FIFO/20260511_FIFO.srcs/sim_1/new/tb_fifo_sv.sv,D:/Work/OnDeviceAI2/20260511_FIFO/20260511_FIFO.srcs/sim_1/new/tb_fifo_sv.sv,,$unit_fifo_sv_sv;control_unit;fifo_sv;reg_file,,uvm,,,,,,
+D:/Work/OnDeviceAI2/20260511_FIFO/20260511_FIFO.srcs/sources_1/new/uart.v,1777988642,verilog,,,,baud_tick_gen;uart,,uvm,,,,,,
+D:/Work/OnDeviceAI2/20260511_FIFO/20260511_FIFO.srcs/sources_1/new/uart_fifo_top.sv,1778742524,systemVerilog,D:/Work/OnDeviceAI2/20260511_FIFO/20260511_FIFO.srcs/sim_1/new/tb_uart_fifo_top.sv,D:/Work/OnDeviceAI2/20260511_FIFO/20260511_FIFO.srcs/sim_1/new/tb_uart_fifo_top.sv,,$unit_uart_fifo_top_sv;uart_fifo_top,,uvm,,,,,,
+D:/Work/OnDeviceAI2/20260511_FIFO/20260511_FIFO.srcs/sources_1/new/uart_rx.v,1777988666,verilog,,D:/Work/OnDeviceAI2/20260511_FIFO/20260511_FIFO.srcs/sources_1/new/uart.v,,uart_rx,,uvm,,,,,,
+D:/Work/OnDeviceAI2/20260511_FIFO/20260511_FIFO.srcs/sources_1/new/uart_tx.v,1777988688,verilog,,D:/Work/OnDeviceAI2/20260511_FIFO/20260511_FIFO.srcs/sources_1/new/uart_rx.v,,uart_tx,,uvm,,,,,,

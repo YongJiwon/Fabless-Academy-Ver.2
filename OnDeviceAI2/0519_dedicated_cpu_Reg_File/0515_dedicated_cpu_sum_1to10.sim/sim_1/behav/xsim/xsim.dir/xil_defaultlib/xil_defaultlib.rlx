@@ -1,0 +1,13 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Work/OnDeviceAI2/0515_dedicated_cpu_sum_1to10/0515_dedicated_cpu_sum_1to10.srcs/sim_1/new/tb_dedicated_cpu.sv,1778831171,systemVerilog,,,,tb_dedicated_cpu,,uvm,,,,,,
+D:/Work/OnDeviceAI2/0519_dedicated_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/Work/OnDeviceAI2/0519_dedicated_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sim_1/new/tb_rv32i.sv,1779176393,systemVerilog,,,,tb_rv32i,,uvm,../../../../0515_dedicated_cpu_sum_1to10.srcs/sources_1/new,,,,,
+D:/Work/OnDeviceAI2/0519_dedicated_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/control_unit.sv,1779236919,systemVerilog,,D:/Work/OnDeviceAI2/0519_dedicated_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/instruction_mem.sv,D:/Work/OnDeviceAI2/0519_dedicated_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/define.vh,control_unit,,uvm,../../../../0515_dedicated_cpu_sum_1to10.srcs/sources_1/new,,,,,
+D:/Work/OnDeviceAI2/0519_dedicated_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/define.vh,1779183769,verilog,,,,,,,,,,,,
+D:/Work/OnDeviceAI2/0519_dedicated_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/instruction_mem.sv,1779176865,systemVerilog,,D:/Work/OnDeviceAI2/0519_dedicated_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_cpu.sv,,instruction_mem,,uvm,../../../../0515_dedicated_cpu_sum_1to10.srcs/sources_1/new,,,,,
+D:/Work/OnDeviceAI2/0519_dedicated_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_cpu.sv,1779236538,systemVerilog,,D:/Work/OnDeviceAI2/0519_dedicated_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv,,rv32i_cpu,,uvm,../../../../0515_dedicated_cpu_sum_1to10.srcs/sources_1/new,,,,,
+D:/Work/OnDeviceAI2/0519_dedicated_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv,1779176540,systemVerilog,,D:/Work/OnDeviceAI2/0519_dedicated_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/top_rv32i_soc.sv,D:/Work/OnDeviceAI2/0519_dedicated_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/define.vh,alu;datapath;program_counter;register_file,,uvm,../../../../0515_dedicated_cpu_sum_1to10.srcs/sources_1/new,,,,,
+D:/Work/OnDeviceAI2/0519_dedicated_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/top_rv32i_soc.sv,1779174001,systemVerilog,,D:/Work/OnDeviceAI2/0519_dedicated_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sim_1/new/tb_rv32i.sv,,top_rv32i_soc,,uvm,../../../../0515_dedicated_cpu_sum_1to10.srcs/sources_1/new,,,,,

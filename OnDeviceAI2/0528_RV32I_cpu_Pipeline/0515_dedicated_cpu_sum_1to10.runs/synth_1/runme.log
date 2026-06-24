@@ -1,0 +1,47 @@
+
+*** Running vivado
+    with args -log top_rv32i_soc.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_rv32i_soc.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source top_rv32i_soc.tcl -notrace
+Command: synth_design -top top_rv32i_soc -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 6392
+ERROR: [Synth 8-2715] syntax error near begin [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:122]
+ERROR: [Synth 8-2715] syntax error near end [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:129]
+WARNING: [Synth 8-1931] empty item in case item list violates IEEE 1364 syntax [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:134]
+WARNING: [Synth 8-1931] empty item in case item list violates IEEE 1364 syntax [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:135]
+WARNING: [Synth 8-1931] empty item in case item list violates IEEE 1364 syntax [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:136]
+ERROR: [Synth 8-1875] default case should appear only once [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:134]
+ERROR: [Synth 8-1875] default case should appear only once [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:135]
+ERROR: [Synth 8-1875] default case should appear only once [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:136]
+ERROR: [Synth 8-1875] default case should appear only once [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:137]
+ERROR: [Synth 8-1031] alu_result is not declared [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:142]
+ERROR: [Synth 8-1031] rs1 is not declared [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:142]
+ERROR: [Synth 8-1031] rs2 is not declared [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:142]
+ERROR: [Synth 8-1875] default case should appear only once [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:142]
+ERROR: [Synth 8-1031] alu_result is not declared [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:143]
+ERROR: [Synth 8-1031] rs1 is not declared [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:143]
+ERROR: [Synth 8-1031] rs2 is not declared [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:143]
+ERROR: [Synth 8-1875] default case should appear only once [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:143]
+ERROR: [Synth 8-1031] alu_result is not declared [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:144]
+ERROR: [Synth 8-1031] rs1 is not declared [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:144]
+ERROR: [Synth 8-1031] rs2 is not declared [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:144]
+ERROR: [Synth 8-1875] default case should appear only once [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:144]
+ERROR: [Synth 8-1031] alu_result is not declared [D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv:145]
+Failed to read verilog 'D:/Work/OnDeviceAI2/0520_RV32I_cpu_Reg_File/0515_dedicated_cpu_sum_1to10.srcs/sources_1/new/rv32i_datapath.sv'
+INFO: [Common 17-83] Releasing license: Synthesis
+5 Infos, 3 Warnings, 0 Critical Warnings and 20 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Wed May 20 15:43:17 2026...

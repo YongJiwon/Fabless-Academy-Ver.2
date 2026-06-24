@@ -1,0 +1,19 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 8cf8296392b04a97848a3e89b4517ca7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_spi_loopback_behav xil_defaultlib.tb_spi_loopback xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Work/OnDeviceAI2/20260612_SPI/20260612_SPI.srcs/sources_1/new/spi_master.sv" Line 3. Module spi_master(CLK_DIV=32'b010) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Work/OnDeviceAI2/20260612_SPI/20260612_SPI.srcs/sources_1/new/spi_slave.sv" Line 3. Module spi_slave doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Work/OnDeviceAI2/20260612_SPI/20260612_SPI.srcs/sources_1/new/spi_master.sv" Line 3. Module spi_master(CLK_DIV=32'b010) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Work/OnDeviceAI2/20260612_SPI/20260612_SPI.srcs/sources_1/new/spi_slave.sv" Line 3. Module spi_slave doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.spi_master(CLK_DIV=32'b010)
+Compiling module xil_defaultlib.spi_slave
+Compiling module xil_defaultlib.tb_spi_loopback
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_spi_loopback_behav

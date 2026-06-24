@@ -1,0 +1,3 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 700080 ns : File "D:/Work/OnDeviceAI2/counter_10000/counter_10000.srcs/sim_1/new/tb_button_debounce.v" Line 46

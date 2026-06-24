@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../0615_I2C_FPGA.srcs/sources_1/new/uart.v" \
+
+sv xil_defaultlib  \
+"../../../../0615_I2C_FPGA.srcs/sources_1/new/i2c_master.sv" \
+"../../../../0615_I2C_FPGA.srcs/sources_1/new/i2c_slave.sv" \
+"../../../../0615_I2C_FPGA.srcs/sources_1/new/master_top.sv" \
+"../../../../0615_I2C_FPGA.srcs/sources_1/new/slave_top.sv" \
+"../../../../0615_I2C_FPGA.srcs/sim_1/new/tb_uart_i2c_system.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

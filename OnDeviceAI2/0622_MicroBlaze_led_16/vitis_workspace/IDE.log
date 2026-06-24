@@ -1,0 +1,617 @@
+19:21:49 INFO  : Registering command handlers for Vitis TCF services
+19:21:49 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Work\OnDeviceAI2\0622_MicroBlaze_led_16\vitis_workspace\temp_xsdb_launch_script.tcl
+19:21:51 INFO  : Platform repository initialization has completed.
+19:21:51 INFO  : XSCT server has started successfully.
+19:21:51 INFO  : plnx-install-location is set to ''
+19:21:51 INFO  : Successfully done setting XSCT server connection channel  
+19:21:51 INFO  : Successfully done query RDI_DATADIR 
+19:21:51 INFO  : Successfully done setting workspace for the tool. 
+19:22:30 INFO  : Result from executing command 'getProjects': design_1_wrapper
+19:22:30 INFO  : Result from executing command 'getPlatforms': 
+19:22:30 WARN  : An unexpected exception occurred in the module 'platform project logging'
+19:22:30 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+19:22:32 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+19:22:49 INFO  : Result from executing command 'getProjects': design_1_wrapper
+19:22:49 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+19:23:00 INFO  : Checking for BSP changes to sync application flags for project 'blink_led'...
+19:23:18 INFO  : Checking for BSP changes to sync application flags for project 'blink_led'...
+19:24:58 INFO  : Checking for BSP changes to sync application flags for project 'blink_led'...
+19:25:28 INFO  : Checking for BSP changes to sync application flags for project 'blink_led'...
+19:26:42 INFO  : Checking for BSP changes to sync application flags for project 'blink_led'...
+19:27:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:27:03 INFO  : Jtag cable 'Digilent Basys3 210183BE9F20A' is selected.
+19:27:03 INFO  : 'jtag frequency' command is executed.
+19:27:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}' command is executed.
+19:27:04 INFO  : Device configured successfully with "D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit"
+19:27:04 INFO  : Context for processor 'microblaze_0' is selected.
+19:27:04 INFO  : Hardware design and registers information is loaded from 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+19:27:04 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:27:04 INFO  : Context for processor 'microblaze_0' is selected.
+19:27:04 INFO  : System reset is completed.
+19:27:07 INFO  : 'after 3000' command is executed.
+19:27:07 INFO  : Context for processor 'microblaze_0' is selected.
+19:27:07 INFO  : The application 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf' is downloaded to processor 'microblaze_0'.
+19:27:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}
+fpga -file D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf
+----------------End of Script----------------
+
+19:27:07 INFO  : Context for processor 'microblaze_0' is selected.
+19:27:07 INFO  : 'con' command is executed.
+19:27:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+19:27:07 INFO  : Launch script is exported to file 'D:\Work\OnDeviceAI2\0622_MicroBlaze_led_16\vitis_workspace\blink_led_system\_ide\scripts\debugger_blink_led-default.tcl'
+19:43:42 INFO  : Disconnected from the channel tcfchan#2.
+09:11:47 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Work\OnDeviceAI2\0622_MicroBlaze_led_16\vitis_workspace\temp_xsdb_launch_script.tcl
+09:11:50 INFO  : XSCT server has started successfully.
+09:11:50 INFO  : Successfully done setting XSCT server connection channel  
+09:11:50 INFO  : plnx-install-location is set to ''
+09:11:50 INFO  : Successfully done setting workspace for the tool. 
+09:11:52 INFO  : Platform repository initialization has completed.
+09:11:53 INFO  : Registering command handlers for Vitis TCF services
+09:11:57 INFO  : Successfully done query RDI_DATADIR 
+09:12:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:12:45 INFO  : Jtag cable 'Digilent Basys3 210183BE9F20A' is selected.
+09:12:45 INFO  : 'jtag frequency' command is executed.
+09:12:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}' command is executed.
+09:12:46 INFO  : Device configured successfully with "D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit"
+09:12:46 INFO  : Context for processor 'microblaze_0' is selected.
+09:12:46 INFO  : Hardware design and registers information is loaded from 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+09:12:46 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:12:46 INFO  : Context for processor 'microblaze_0' is selected.
+09:12:46 INFO  : System reset is completed.
+09:12:49 INFO  : 'after 3000' command is executed.
+09:12:49 INFO  : Context for processor 'microblaze_0' is selected.
+09:12:49 INFO  : The application 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf' is downloaded to processor 'microblaze_0'.
+09:12:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}
+fpga -file D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf
+----------------End of Script----------------
+
+09:12:49 INFO  : Context for processor 'microblaze_0' is selected.
+09:12:49 INFO  : 'con' command is executed.
+09:12:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:12:49 INFO  : Launch script is exported to file 'D:\Work\OnDeviceAI2\0622_MicroBlaze_led_16\vitis_workspace\blink_led_system\_ide\scripts\debugger_blink_led-default.tcl'
+09:13:56 INFO  : Disconnected from the channel tcfchan#1.
+09:13:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:13:57 INFO  : Jtag cable 'Digilent Basys3 210183BE9F20A' is selected.
+09:13:57 INFO  : 'jtag frequency' command is executed.
+09:13:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}' command is executed.
+09:13:58 INFO  : Device configured successfully with "D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit"
+09:13:58 INFO  : Context for processor 'microblaze_0' is selected.
+09:13:58 INFO  : Hardware design and registers information is loaded from 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+09:13:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:13:58 INFO  : Context for processor 'microblaze_0' is selected.
+09:13:58 INFO  : System reset is completed.
+09:14:01 INFO  : 'after 3000' command is executed.
+09:14:01 INFO  : Context for processor 'microblaze_0' is selected.
+09:14:01 INFO  : The application 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf' is downloaded to processor 'microblaze_0'.
+09:14:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}
+fpga -file D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf
+----------------End of Script----------------
+
+09:14:01 INFO  : Context for processor 'microblaze_0' is selected.
+09:14:01 INFO  : 'con' command is executed.
+09:14:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:14:01 INFO  : Launch script is exported to file 'D:\Work\OnDeviceAI2\0622_MicroBlaze_led_16\vitis_workspace\blink_led_system\_ide\scripts\debugger_blink_led-default.tcl'
+09:14:27 INFO  : Disconnected from the channel tcfchan#2.
+09:14:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:14:28 INFO  : Jtag cable 'Digilent Basys3 210183BE9F20A' is selected.
+09:14:28 INFO  : 'jtag frequency' command is executed.
+09:14:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}' command is executed.
+09:14:29 INFO  : Device configured successfully with "D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit"
+09:14:29 INFO  : Context for processor 'microblaze_0' is selected.
+09:14:29 INFO  : Hardware design and registers information is loaded from 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+09:14:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:14:29 INFO  : Context for processor 'microblaze_0' is selected.
+09:14:29 INFO  : System reset is completed.
+09:14:32 INFO  : 'after 3000' command is executed.
+09:14:32 INFO  : Context for processor 'microblaze_0' is selected.
+09:14:32 INFO  : The application 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf' is downloaded to processor 'microblaze_0'.
+09:14:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}
+fpga -file D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf
+----------------End of Script----------------
+
+09:14:32 INFO  : Context for processor 'microblaze_0' is selected.
+09:14:32 INFO  : 'con' command is executed.
+09:14:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:14:32 INFO  : Launch script is exported to file 'D:\Work\OnDeviceAI2\0622_MicroBlaze_led_16\vitis_workspace\blink_led_system\_ide\scripts\debugger_blink_led-default.tcl'
+09:15:16 INFO  : Disconnected from the channel tcfchan#3.
+09:15:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:15:17 INFO  : Jtag cable 'Digilent Basys3 210183BE9F20A' is selected.
+09:15:17 INFO  : 'jtag frequency' command is executed.
+09:15:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}' command is executed.
+09:15:17 INFO  : Device configured successfully with "D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit"
+09:15:17 INFO  : Context for processor 'microblaze_0' is selected.
+09:15:17 INFO  : Hardware design and registers information is loaded from 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+09:15:17 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:15:17 INFO  : Context for processor 'microblaze_0' is selected.
+09:15:17 INFO  : System reset is completed.
+09:15:20 INFO  : 'after 3000' command is executed.
+09:15:21 INFO  : Context for processor 'microblaze_0' is selected.
+09:15:21 INFO  : The application 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf' is downloaded to processor 'microblaze_0'.
+09:15:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}
+fpga -file D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf
+----------------End of Script----------------
+
+09:15:21 INFO  : Context for processor 'microblaze_0' is selected.
+09:15:21 INFO  : 'con' command is executed.
+09:15:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:15:21 INFO  : Launch script is exported to file 'D:\Work\OnDeviceAI2\0622_MicroBlaze_led_16\vitis_workspace\blink_led_system\_ide\scripts\debugger_blink_led-default.tcl'
+09:16:03 INFO  : Checking for BSP changes to sync application flags for project 'blink_led'...
+09:16:10 INFO  : Disconnected from the channel tcfchan#4.
+09:16:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:16:12 INFO  : Jtag cable 'Digilent Basys3 210183BE9F20A' is selected.
+09:16:12 INFO  : 'jtag frequency' command is executed.
+09:16:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}' command is executed.
+09:16:12 INFO  : Device configured successfully with "D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit"
+09:16:12 INFO  : Context for processor 'microblaze_0' is selected.
+09:16:12 INFO  : Hardware design and registers information is loaded from 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+09:16:12 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:16:12 INFO  : Context for processor 'microblaze_0' is selected.
+09:16:12 INFO  : System reset is completed.
+09:16:15 INFO  : 'after 3000' command is executed.
+09:16:15 INFO  : Context for processor 'microblaze_0' is selected.
+09:16:15 INFO  : The application 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf' is downloaded to processor 'microblaze_0'.
+09:16:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}
+fpga -file D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf
+----------------End of Script----------------
+
+09:16:15 INFO  : Context for processor 'microblaze_0' is selected.
+09:16:15 INFO  : 'con' command is executed.
+09:16:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:16:15 INFO  : Launch script is exported to file 'D:\Work\OnDeviceAI2\0622_MicroBlaze_led_16\vitis_workspace\blink_led_system\_ide\scripts\debugger_blink_led-default.tcl'
+09:16:47 INFO  : Checking for BSP changes to sync application flags for project 'blink_led'...
+09:17:03 INFO  : Disconnected from the channel tcfchan#5.
+09:17:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:17:04 INFO  : Jtag cable 'Digilent Basys3 210183BE9F20A' is selected.
+09:17:04 INFO  : 'jtag frequency' command is executed.
+09:17:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}' command is executed.
+09:17:04 INFO  : Device configured successfully with "D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit"
+09:17:04 INFO  : Context for processor 'microblaze_0' is selected.
+09:17:04 INFO  : Hardware design and registers information is loaded from 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+09:17:04 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:17:04 INFO  : Context for processor 'microblaze_0' is selected.
+09:17:04 INFO  : System reset is completed.
+09:17:07 INFO  : 'after 3000' command is executed.
+09:17:07 INFO  : Context for processor 'microblaze_0' is selected.
+09:17:07 INFO  : The application 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf' is downloaded to processor 'microblaze_0'.
+09:17:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}
+fpga -file D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf
+----------------End of Script----------------
+
+09:17:07 INFO  : Context for processor 'microblaze_0' is selected.
+09:17:08 INFO  : 'con' command is executed.
+09:17:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:17:08 INFO  : Launch script is exported to file 'D:\Work\OnDeviceAI2\0622_MicroBlaze_led_16\vitis_workspace\blink_led_system\_ide\scripts\debugger_blink_led-default.tcl'
+09:17:41 INFO  : Checking for BSP changes to sync application flags for project 'blink_led'...
+09:17:46 INFO  : Disconnected from the channel tcfchan#6.
+09:17:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:17:47 INFO  : Jtag cable 'Digilent Basys3 210183BE9F20A' is selected.
+09:17:47 INFO  : 'jtag frequency' command is executed.
+09:17:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}' command is executed.
+09:17:48 INFO  : Device configured successfully with "D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit"
+09:17:48 INFO  : Context for processor 'microblaze_0' is selected.
+09:17:48 INFO  : Hardware design and registers information is loaded from 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+09:17:48 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:17:48 INFO  : Context for processor 'microblaze_0' is selected.
+09:17:48 INFO  : System reset is completed.
+09:17:51 INFO  : 'after 3000' command is executed.
+09:17:51 INFO  : Context for processor 'microblaze_0' is selected.
+09:17:51 INFO  : The application 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf' is downloaded to processor 'microblaze_0'.
+09:17:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}
+fpga -file D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf
+----------------End of Script----------------
+
+09:17:51 INFO  : Context for processor 'microblaze_0' is selected.
+09:17:51 INFO  : 'con' command is executed.
+09:17:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:17:51 INFO  : Launch script is exported to file 'D:\Work\OnDeviceAI2\0622_MicroBlaze_led_16\vitis_workspace\blink_led_system\_ide\scripts\debugger_blink_led-default.tcl'
+09:18:27 INFO  : Checking for BSP changes to sync application flags for project 'blink_led'...
+09:19:04 INFO  : Checking for BSP changes to sync application flags for project 'blink_led'...
+09:19:09 INFO  : Disconnected from the channel tcfchan#7.
+09:19:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:19:10 INFO  : Jtag cable 'Digilent Basys3 210183BE9F20A' is selected.
+09:19:10 INFO  : 'jtag frequency' command is executed.
+09:19:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}' command is executed.
+09:19:10 INFO  : Device configured successfully with "D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit"
+09:19:10 INFO  : Context for processor 'microblaze_0' is selected.
+09:19:10 INFO  : Hardware design and registers information is loaded from 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+09:19:10 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:19:10 INFO  : Context for processor 'microblaze_0' is selected.
+09:19:10 INFO  : System reset is completed.
+09:19:13 INFO  : 'after 3000' command is executed.
+09:19:13 INFO  : Context for processor 'microblaze_0' is selected.
+09:19:14 INFO  : The application 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf' is downloaded to processor 'microblaze_0'.
+09:19:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}
+fpga -file D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf
+----------------End of Script----------------
+
+09:19:14 INFO  : Context for processor 'microblaze_0' is selected.
+09:19:14 INFO  : 'con' command is executed.
+09:19:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:19:14 INFO  : Launch script is exported to file 'D:\Work\OnDeviceAI2\0622_MicroBlaze_led_16\vitis_workspace\blink_led_system\_ide\scripts\debugger_blink_led-default.tcl'
+09:19:39 INFO  : Checking for BSP changes to sync application flags for project 'blink_led'...
+09:19:45 INFO  : Disconnected from the channel tcfchan#8.
+09:19:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:19:46 INFO  : Jtag cable 'Digilent Basys3 210183BE9F20A' is selected.
+09:19:46 INFO  : 'jtag frequency' command is executed.
+09:19:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}' command is executed.
+09:19:46 INFO  : Device configured successfully with "D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit"
+09:19:46 INFO  : Context for processor 'microblaze_0' is selected.
+09:19:46 INFO  : Hardware design and registers information is loaded from 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+09:19:46 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:19:46 INFO  : Context for processor 'microblaze_0' is selected.
+09:19:46 INFO  : System reset is completed.
+09:19:49 INFO  : 'after 3000' command is executed.
+09:19:49 INFO  : Context for processor 'microblaze_0' is selected.
+09:19:49 INFO  : The application 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf' is downloaded to processor 'microblaze_0'.
+09:19:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}
+fpga -file D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf
+----------------End of Script----------------
+
+09:19:50 INFO  : Context for processor 'microblaze_0' is selected.
+09:19:50 INFO  : 'con' command is executed.
+09:19:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:19:50 INFO  : Launch script is exported to file 'D:\Work\OnDeviceAI2\0622_MicroBlaze_led_16\vitis_workspace\blink_led_system\_ide\scripts\debugger_blink_led-default.tcl'
+09:21:26 INFO  : Checking for BSP changes to sync application flags for project 'blink_led'...
+09:21:32 INFO  : Disconnected from the channel tcfchan#9.
+09:21:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:21:33 INFO  : Jtag cable 'Digilent Basys3 210183BE9F20A' is selected.
+09:21:33 INFO  : 'jtag frequency' command is executed.
+09:21:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}' command is executed.
+09:21:34 INFO  : Device configured successfully with "D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit"
+09:21:34 INFO  : Context for processor 'microblaze_0' is selected.
+09:21:34 INFO  : Hardware design and registers information is loaded from 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+09:21:34 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:21:34 INFO  : Context for processor 'microblaze_0' is selected.
+09:21:34 INFO  : System reset is completed.
+09:21:37 INFO  : 'after 3000' command is executed.
+09:21:37 INFO  : Context for processor 'microblaze_0' is selected.
+09:21:37 INFO  : The application 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf' is downloaded to processor 'microblaze_0'.
+09:21:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}
+fpga -file D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf
+----------------End of Script----------------
+
+09:21:37 INFO  : Context for processor 'microblaze_0' is selected.
+09:21:37 INFO  : 'con' command is executed.
+09:21:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:21:37 INFO  : Launch script is exported to file 'D:\Work\OnDeviceAI2\0622_MicroBlaze_led_16\vitis_workspace\blink_led_system\_ide\scripts\debugger_blink_led-default.tcl'
+09:21:56 INFO  : Checking for BSP changes to sync application flags for project 'blink_led'...
+09:22:00 INFO  : Disconnected from the channel tcfchan#10.
+09:22:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:22:01 INFO  : Jtag cable 'Digilent Basys3 210183BE9F20A' is selected.
+09:22:01 INFO  : 'jtag frequency' command is executed.
+09:22:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}' command is executed.
+09:22:02 INFO  : Device configured successfully with "D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit"
+09:22:02 INFO  : Context for processor 'microblaze_0' is selected.
+09:22:02 INFO  : Hardware design and registers information is loaded from 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+09:22:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:22:02 INFO  : Context for processor 'microblaze_0' is selected.
+09:22:02 INFO  : System reset is completed.
+09:22:05 INFO  : 'after 3000' command is executed.
+09:22:05 INFO  : Context for processor 'microblaze_0' is selected.
+09:22:05 INFO  : The application 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf' is downloaded to processor 'microblaze_0'.
+09:22:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}
+fpga -file D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf
+----------------End of Script----------------
+
+09:22:05 INFO  : Context for processor 'microblaze_0' is selected.
+09:22:05 INFO  : 'con' command is executed.
+09:22:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:22:05 INFO  : Launch script is exported to file 'D:\Work\OnDeviceAI2\0622_MicroBlaze_led_16\vitis_workspace\blink_led_system\_ide\scripts\debugger_blink_led-default.tcl'
+09:22:25 INFO  : Checking for BSP changes to sync application flags for project 'blink_led'...
+09:22:30 INFO  : Disconnected from the channel tcfchan#11.
+09:22:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:22:31 INFO  : Jtag cable 'Digilent Basys3 210183BE9F20A' is selected.
+09:22:31 INFO  : 'jtag frequency' command is executed.
+09:22:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}' command is executed.
+09:22:31 INFO  : Device configured successfully with "D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit"
+09:22:31 INFO  : Context for processor 'microblaze_0' is selected.
+09:22:32 INFO  : Hardware design and registers information is loaded from 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+09:22:32 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:22:32 INFO  : Context for processor 'microblaze_0' is selected.
+09:22:32 INFO  : System reset is completed.
+09:22:35 INFO  : 'after 3000' command is executed.
+09:22:35 INFO  : Context for processor 'microblaze_0' is selected.
+09:22:35 INFO  : The application 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf' is downloaded to processor 'microblaze_0'.
+09:22:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}
+fpga -file D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf
+----------------End of Script----------------
+
+09:22:35 INFO  : Context for processor 'microblaze_0' is selected.
+09:22:35 INFO  : 'con' command is executed.
+09:22:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:22:35 INFO  : Launch script is exported to file 'D:\Work\OnDeviceAI2\0622_MicroBlaze_led_16\vitis_workspace\blink_led_system\_ide\scripts\debugger_blink_led-default.tcl'
+09:23:13 INFO  : Checking for BSP changes to sync application flags for project 'blink_led'...
+09:23:17 INFO  : Disconnected from the channel tcfchan#12.
+09:23:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:23:18 INFO  : Jtag cable 'Digilent Basys3 210183BE9F20A' is selected.
+09:23:18 INFO  : 'jtag frequency' command is executed.
+09:23:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}' command is executed.
+09:23:19 INFO  : Device configured successfully with "D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit"
+09:23:19 INFO  : Context for processor 'microblaze_0' is selected.
+09:23:19 INFO  : Hardware design and registers information is loaded from 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+09:23:19 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:23:19 INFO  : Context for processor 'microblaze_0' is selected.
+09:23:19 INFO  : System reset is completed.
+09:23:22 INFO  : 'after 3000' command is executed.
+09:23:22 INFO  : Context for processor 'microblaze_0' is selected.
+09:23:22 INFO  : The application 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf' is downloaded to processor 'microblaze_0'.
+09:23:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}
+fpga -file D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf
+----------------End of Script----------------
+
+09:23:22 INFO  : Context for processor 'microblaze_0' is selected.
+09:23:22 INFO  : 'con' command is executed.
+09:23:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:23:22 INFO  : Launch script is exported to file 'D:\Work\OnDeviceAI2\0622_MicroBlaze_led_16\vitis_workspace\blink_led_system\_ide\scripts\debugger_blink_led-default.tcl'
+09:23:29 INFO  : Checking for BSP changes to sync application flags for project 'blink_led'...
+09:23:34 INFO  : Disconnected from the channel tcfchan#13.
+09:23:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:23:35 INFO  : Jtag cable 'Digilent Basys3 210183BE9F20A' is selected.
+09:23:35 INFO  : 'jtag frequency' command is executed.
+09:23:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}' command is executed.
+09:23:35 INFO  : Device configured successfully with "D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit"
+09:23:35 INFO  : Context for processor 'microblaze_0' is selected.
+09:23:35 INFO  : Hardware design and registers information is loaded from 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+09:23:35 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:23:35 INFO  : Context for processor 'microblaze_0' is selected.
+09:23:35 INFO  : System reset is completed.
+09:23:38 INFO  : 'after 3000' command is executed.
+09:23:38 INFO  : Context for processor 'microblaze_0' is selected.
+09:23:38 INFO  : The application 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf' is downloaded to processor 'microblaze_0'.
+09:23:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}
+fpga -file D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf
+----------------End of Script----------------
+
+09:23:38 INFO  : Context for processor 'microblaze_0' is selected.
+09:23:39 INFO  : 'con' command is executed.
+09:23:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:23:39 INFO  : Launch script is exported to file 'D:\Work\OnDeviceAI2\0622_MicroBlaze_led_16\vitis_workspace\blink_led_system\_ide\scripts\debugger_blink_led-default.tcl'
+09:24:41 INFO  : Checking for BSP changes to sync application flags for project 'blink_led'...
+09:24:49 INFO  : Disconnected from the channel tcfchan#14.
+09:24:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:24:50 INFO  : Jtag cable 'Digilent Basys3 210183BE9F20A' is selected.
+09:24:50 INFO  : 'jtag frequency' command is executed.
+09:24:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}' command is executed.
+09:24:50 INFO  : Device configured successfully with "D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit"
+09:24:50 INFO  : Context for processor 'microblaze_0' is selected.
+09:24:50 INFO  : Hardware design and registers information is loaded from 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+09:24:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:24:50 INFO  : Context for processor 'microblaze_0' is selected.
+09:24:50 INFO  : System reset is completed.
+09:24:53 INFO  : 'after 3000' command is executed.
+09:24:53 INFO  : Context for processor 'microblaze_0' is selected.
+09:24:53 INFO  : The application 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf' is downloaded to processor 'microblaze_0'.
+09:24:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BE9F20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BE9F20A-0362d093-0"}
+fpga -file D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/vitis_workspace/blink_led/Debug/blink_led.elf
+----------------End of Script----------------
+
+09:24:53 INFO  : Context for processor 'microblaze_0' is selected.
+09:24:54 INFO  : 'con' command is executed.
+09:24:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:24:54 INFO  : Launch script is exported to file 'D:\Work\OnDeviceAI2\0622_MicroBlaze_led_16\vitis_workspace\blink_led_system\_ide\scripts\debugger_blink_led-default.tcl'
+09:25:12 INFO  : Checking for BSP changes to sync application flags for project 'blink_led'...
+09:25:16 INFO  : Disconnected from the channel tcfchan#15.

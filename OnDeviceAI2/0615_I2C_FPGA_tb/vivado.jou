@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jun 16 14:17:41 2026
+# Process ID: 19868
+# Current directory: D:/Work/OnDeviceAI2/0615_I2C_FPGA_tb
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19912 D:\Work\OnDeviceAI2\0615_I2C_FPGA_tb\0615_I2C_FPGA.xpr
+# Log file: D:/Work/OnDeviceAI2/0615_I2C_FPGA_tb/vivado.log
+# Journal file: D:/Work/OnDeviceAI2/0615_I2C_FPGA_tb\vivado.jou
+#-----------------------------------------------------------
+start_guioopen_project D:/Work/OnDeviceAI2/0615_I2C_FPGA_tb/0615_I2C_FPGA.xpruupdate_compile_order -fileset sources_1
+file mkdir D:/Work/OnDeviceAI2/0615_I2C_FPGA_tb/0615_I2C_FPGA.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Work/OnDeviceAI2/0615_I2C_FPGA_tb/0615_I2C_FPGA.srcs/sim_1/new/tb_uart_i2c_system.sv w ]
+add_files -fileset sim_1 D:/Work/OnDeviceAI2/0615_I2C_FPGA_tb/0615_I2C_FPGA.srcs/sim_1/new/tb_uart_i2c_system.sv
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_uart_i2c_system [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_uart_i2c_system.tcl
+close_sim
+launch_simulation
+launch_simulation
+source tb_uart_i2c_system.tcl
+relaunch_sim
+run all
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run all
+run all
+relaunch_sim
+run all
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+close_sim

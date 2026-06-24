@@ -1,0 +1,23 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+ time	 rst sw  led
+ 0	  1  000 000
+ 12000	  0  000 000
+ 30000	  0  001 000
+ 40000	  0  010 000
+ 45000	  0  010 100
+ 50000	  0  100 100
+ 55000	  0  100 010
+ 60000	  0  111 010
+ 65000	  0  111 001
+ 70000	  0  000 001
+ 75000	  0  000 111
+ 80000	  0  010 111
+ 85000	  0  010 000
+ 90000	  0  001 000
+ 95000	  0  001 010
+ 100000	  0  100 010
+ 110000	  0  001 010
+ 115000	  0  001 001
+ 125000	  0  001 100
+$finish called at time : 135 ns : File "D:/Work/OnDeviceAI2/0413_Control_Unit_LED/0413_Control_Unit_LED.srcs/sim_1/new/fsm_led_tb.v" Line 72

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Apr 17 17:00:11 2026
+# Process ID: 4612
+# Current directory: D:/Work/OnDeviceAI2/final_stop_watch/final_stop_watch.runs/synth_1
+# Command line: vivado.exe -log top_stopwatch_watch.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_stopwatch_watch.tcl
+# Log file: D:/Work/OnDeviceAI2/final_stop_watch/final_stop_watch.runs/synth_1/top_stopwatch_watch.vds
+# Journal file: D:/Work/OnDeviceAI2/final_stop_watch/final_stop_watch.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_stopwatch_watch.tcl -notrace

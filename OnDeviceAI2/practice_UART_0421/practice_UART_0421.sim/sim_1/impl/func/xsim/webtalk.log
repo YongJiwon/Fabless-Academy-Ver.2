@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 22 15:42:50 2026
+# Process ID: 17244
+# Current directory: D:/Work/OnDeviceAI2/practice_UART_0421/practice_UART_0421.sim/sim_1/impl/func/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Work/OnDeviceAI2/practice_UART_0421/practice_UART_0421.sim/sim_1/impl/func/xsim/xsim.dir/tb_uart_func_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Work/OnDeviceAI2/practice_UART_0421/practice_UART_0421.sim/sim_1/impl/func/xsim/webtalk.log
+# Journal file: D:/Work/OnDeviceAI2/practice_UART_0421/practice_UART_0421.sim/sim_1/impl/func/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Work/OnDeviceAI2/practice_UART_0421/practice_UART_0421.sim/sim_1/impl/func/xsim/xsim.dir/tb_uart_func_impl/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Apr 22 15:42:50 2026...

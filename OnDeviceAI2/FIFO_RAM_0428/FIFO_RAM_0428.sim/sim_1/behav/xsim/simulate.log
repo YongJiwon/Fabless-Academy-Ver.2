@@ -1,0 +1,10 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+              280000 : pass : pop_data = 8d, compare_data = 8d
+              290000 : pass : pop_data = 01, compare_data = 01
+              310000 : pass : pop_data = 3d, compare_data = 3d
+              320000 : pass : pop_data = f9, compare_data = f9
+              350000 : pass : pop_data = 12, compare_data = 12
+              360000 : pass : pop_data = ce, compare_data = ce
+              380000 : pass : pop_data = 65, compare_data = 65
+$stop called at time : 485 ns : File "D:/Work/OnDeviceAI2/FIFO_RAM_0428/FIFO_RAM_0428.srcs/sim_1/new/tb_fifo.v" Line 123

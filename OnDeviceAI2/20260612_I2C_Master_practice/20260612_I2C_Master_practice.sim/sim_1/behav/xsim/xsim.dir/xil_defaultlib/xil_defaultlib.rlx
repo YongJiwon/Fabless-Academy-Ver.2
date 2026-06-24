@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Work/OnDeviceAI2/20260612_I2C_Master_practice/20260612_I2C_Master_practice.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/Work/OnDeviceAI2/20260612_I2C_Master_practice/20260612_I2C_Master_practice.srcs/sim_1/new/tb_i2c_master.sv,1781489667,systemVerilog,,,,tb_i2c_master,,uvm,,,,,,
+D:/Work/OnDeviceAI2/20260612_I2C_Master_practice/20260612_I2C_Master_practice.srcs/sources_1/new/I2C_Master.sv,1781488792,systemVerilog,,D:/Work/OnDeviceAI2/20260612_I2C_Master_practice/20260612_I2C_Master_practice.srcs/sim_1/new/tb_i2c_master.sv,,I2C_Master;I2C_Master_top,,uvm,,,,,,

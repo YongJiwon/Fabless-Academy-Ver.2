@@ -1,0 +1,24 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sim_1/imports/new/tb_uart_loopback.v,1777443831,verilog,,,,tb_uart_loopback,,,,,,,,
+D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sim_1/new/tb_top_sr04.v,1777547406,verilog,,,,tb_top_sr04,,,,,,,,
+D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/BCD.v,1776392065,verilog,,D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/FND_Controller.v,,BCD,,,,,,,,
+D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/FND_Controller.v,1776411833,verilog,,D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/button_debounce.v,,FND_Controller,,,,,,,,
+D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/button_debounce.v,1777519599,verilog,,D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/comparator.v,,button_debounce,,,,,,,,
+D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/comparator.v,1776410237,verilog,,D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/counter_8.v,,comparator,,,,,,,,
+D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/counter_8.v,1776387184,verilog,,D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/decoder_2to4.v,,counter_8,,,,,,,,
+D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/decoder_2to4.v,1776204610,verilog,,D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/demux_1to8.v,,decoder_2to4,,,,,,,,
+D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/demux_1to8.v,1776411706,verilog,,D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/digit_splitter.v,,demux_1to8,,,,,,,,
+D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/digit_splitter.v,1777545344,verilog,,D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/mux_2to1.v,,digit_splitter,,,,,,,,
+D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/fifo.v,1777443557,verilog,,D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/uart.v,,control_unit;fifo;register_file,,,,,,,,
+D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/mux_2to1.v,1776392375,verilog,,D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/mux_8to1.v,,mux_2to1,,,,,,,,
+D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/mux_8to1.v,1776408214,verilog,,D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/sr04.v,,mux_8to1,,,,,,,,
+D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/sr04.v,1777521987,verilog,,D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/tick_1ms.v,,sr04,,,,,,,,
+D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/tick_1ms.v,1776204610,verilog,,D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/tick_1us.v,,tick_1ms,,,,,,,,
+D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/tick_1us.v,1777525361,verilog,,D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/top_sr04_controller.v,,tick_1us,,,,,,,,
+D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/top_sr04_controller.v,1777524454,verilog,,D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sim_1/new/tb_top_sr04.v,,top_sr04_controller,,,,,,,,
+D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/uart.v,1777441666,verilog,,D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/uart_loopback.v,,baud_tick_gen;uart;uart_rx;uart_tx,,,,,,,,
+D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sources_1/new/uart_loopback.v,1777443052,verilog,,D:/Work/OnDeviceAI2/260429_FIFO_UART_Project/260429_FIFO_UART_Project.srcs/sim_1/imports/new/tb_uart_loopback.v,,uart_loopback,,,,,,,,

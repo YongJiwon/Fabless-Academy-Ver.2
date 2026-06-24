@@ -1,0 +1,261 @@
+
+*** Running vivado
+    with args -log design_1_led_f_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_led_f_0_0.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source design_1_led_f_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Work/OnDeviceAI2/ip_repo/led_f_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+Command: synth_design -top design_1_led_f_0_0 -part xc7a35tcpg236-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12072
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1107.488 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_led_f_0_0' [d:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/0622_MicroBlaze_led_16.gen/sources_1/bd/design_1/ip/design_1_led_f_0_0/synth/design_1_led_f_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'led_f_v1_0' [d:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/0622_MicroBlaze_led_16.gen/sources_1/bd/design_1/ipshared/ba04/hdl/led_f_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'gpio_v1_0_S00_AXI' [d:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/0622_MicroBlaze_led_16.gen/sources_1/bd/design_1/ipshared/ba04/hdl/led_f_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [d:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/0622_MicroBlaze_led_16.gen/sources_1/bd/design_1/ipshared/ba04/hdl/led_f_v1_0_S00_AXI.v:233]
+INFO: [Synth 8-226] default block is never used [d:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/0622_MicroBlaze_led_16.gen/sources_1/bd/design_1/ipshared/ba04/hdl/led_f_v1_0_S00_AXI.v:374]
+INFO: [Synth 8-6155] done synthesizing module 'gpio_v1_0_S00_AXI' (1#1) [d:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/0622_MicroBlaze_led_16.gen/sources_1/bd/design_1/ipshared/ba04/hdl/led_f_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6157] synthesizing module 'gpio' [d:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/0622_MicroBlaze_led_16.gen/sources_1/bd/design_1/ipshared/ba04/hdl/led_f_v1_0.v:93]
+INFO: [Synth 8-6155] done synthesizing module 'gpio' (2#1) [d:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/0622_MicroBlaze_led_16.gen/sources_1/bd/design_1/ipshared/ba04/hdl/led_f_v1_0.v:93]
+INFO: [Synth 8-6155] done synthesizing module 'led_f_v1_0' (3#1) [d:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/0622_MicroBlaze_led_16.gen/sources_1/bd/design_1/ipshared/ba04/hdl/led_f_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_led_f_0_0' (4#1) [d:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/0622_MicroBlaze_led_16.gen/sources_1/bd/design_1/ip/design_1_led_f_0_0/synth/design_1_led_f_0_0.v:57]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1107.488 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1107.488 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1107.488 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1107.488 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1165.422 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1165.430 ; gain = 0.008
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1165.430 ; gain = 57.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1165.430 ; gain = 57.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1165.430 ; gain = 57.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1165.430 ; gain = 57.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 3     
+	   4 Input   32 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1165.430 ; gain = 57.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1165.430 ; gain = 57.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1165.430 ; gain = 57.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1175.953 ; gain = 68.465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_5' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_6' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_7' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_8' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_9' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_10' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_11' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_12' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_13' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_14' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_15' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_16' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_17' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_18' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_19' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_20' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_21' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_22' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_23' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_24' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_25' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_26' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_27' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_28' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_29' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_30' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_31' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_32' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_33' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_34' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_35' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'insti_36' to logic
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1182.773 ; gain = 75.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1182.773 ; gain = 75.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1182.773 ; gain = 75.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1182.773 ; gain = 75.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1182.773 ; gain = 75.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1182.773 ; gain = 75.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |    17|
+|2     |LUT2 |    33|
+|3     |LUT3 |     1|
+|4     |LUT4 |    18|
+|5     |LUT5 |    16|
+|6     |LUT6 |    20|
+|7     |FDRE |   137|
+|8     |FDSE |     1|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1182.773 ; gain = 75.285
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 32 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1182.773 ; gain = 17.344
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1182.773 ; gain = 75.285
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1194.812 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1199.398 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 0 Warnings, 32 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1199.398 ; gain = 91.910
+INFO: [Common 17-1381] The checkpoint 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/0622_MicroBlaze_led_16.runs/design_1_led_f_0_0_synth_1/design_1_led_f_0_0.dcp' has been generated.
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+INFO: [Common 17-1381] The checkpoint 'D:/Work/OnDeviceAI2/0622_MicroBlaze_led_16/0622_MicroBlaze_led_16.runs/design_1_led_f_0_0_synth_1/design_1_led_f_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_led_f_0_0_utilization_synth.rpt -pb design_1_led_f_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 22 19:14:01 2026...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr  8 17:29:28 2026
+# Process ID: 20012
+# Current directory: D:/Work/OnDeviceAI2/20260407_adder/20260407_adder.runs/impl_1
+# Command line: vivado.exe -log adder_fnd.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source adder_fnd.tcl -notrace
+# Log file: D:/Work/OnDeviceAI2/20260407_adder/20260407_adder.runs/impl_1/adder_fnd.vdi
+# Journal file: D:/Work/OnDeviceAI2/20260407_adder/20260407_adder.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source adder_fnd.tcl -notrace

@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_tick_gen_100hz_behav/xsimk.exe -simmode gui -wdb tb_tick_gen_100hz_behav.wdb -simrunnum 0 -socket 61672
+Design successfully loaded
+Design Loading Memory Usage: 7828 KB (Peak: 7828 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 15972 KB (Peak: 15972 KB)
+Simulation CPU Usage: 374 ms

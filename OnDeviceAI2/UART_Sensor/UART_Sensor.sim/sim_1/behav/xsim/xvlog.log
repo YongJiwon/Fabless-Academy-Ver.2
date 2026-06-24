@@ -1,0 +1,64 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/ascii_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ascii_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/ascii_sender.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ascii_sender
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/btn_debounce.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module btn_debounce
+INFO: [VRFC 10-311] analyzing module button_debounce
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-311] analyzing module dht11_control_unit
+INFO: [VRFC 10-311] analyzing module sr04_control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/dht11_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dht11_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-311] analyzing module fifo_control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fnd_controller
+INFO: [VRFC 10-311] analyzing module clk_div_1khz
+INFO: [VRFC 10-311] analyzing module counter_n
+INFO: [VRFC 10-311] analyzing module mux_2x_1
+INFO: [VRFC 10-311] analyzing module decoder_2x4
+INFO: [VRFC 10-311] analyzing module comparator
+INFO: [VRFC 10-311] analyzing module digit_splitter
+INFO: [VRFC 10-311] analyzing module digit_splitter_sensor
+INFO: [VRFC 10-311] analyzing module mux_watch_2x1
+INFO: [VRFC 10-311] analyzing module mux_8x1
+INFO: [VRFC 10-311] analyzing module bcd
+INFO: [VRFC 10-311] analyzing module bcd_sensor
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/sender_data_splitter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sender_data_splitter
+INFO: [VRFC 10-311] analyzing module bits_to_ascii
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/signal_decision.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signal_decision
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/sr04_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sr04_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/stop_watch_control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stop_watch_control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/stopwatch_datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stopwatch_datapath
+INFO: [VRFC 10-311] analyzing module tick_counter
+INFO: [VRFC 10-311] analyzing module tick_gen_100hz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/tick_gen_us.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tick_gen_us
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/top_uart_time_sensor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_uart_time_sensor
+INFO: [VRFC 10-311] analyzing module mux_2sel
+INFO: [VRFC 10-311] analyzing module mux_4x_1_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart
+INFO: [VRFC 10-311] analyzing module baud_tick_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/uart_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/watch_control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module watch_control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/watch_datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module watch_datapath
+INFO: [VRFC 10-311] analyzing module watch_tick_counter
+INFO: [VRFC 10-311] analyzing module watch_tick_gen_100hz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sim_1/new/tb_top_ascii_sender_uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top_ascii_sender_uart

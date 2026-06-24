@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr 13 12:57:06 2026
+# Process ID: 2868
+# Current directory: D:/Work/OnDeviceAI2/Control_Unit/Control_Unit.runs/synth_1
+# Command line: vivado.exe -log counter_10000.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source counter_10000.tcl
+# Log file: D:/Work/OnDeviceAI2/Control_Unit/Control_Unit.runs/synth_1/counter_10000.vds
+# Journal file: D:/Work/OnDeviceAI2/Control_Unit/Control_Unit.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source counter_10000.tcl -notrace

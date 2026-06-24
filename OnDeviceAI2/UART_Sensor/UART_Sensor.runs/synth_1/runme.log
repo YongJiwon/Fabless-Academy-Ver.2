@@ -1,0 +1,655 @@
+
+*** Running vivado
+    with args -log top_uart_time_sensor.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_uart_time_sensor.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source top_uart_time_sensor.tcl -notrace
+Command: synth_design -top top_uart_time_sensor -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20668
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1085.133 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_uart_time_sensor' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/top_uart_time_sensor.v:3]
+	Parameter MSEC_WIDTH bound to: 7 - type: integer 
+	Parameter SEC_WIDTH bound to: 6 - type: integer 
+	Parameter MIN_WIDTH bound to: 6 - type: integer 
+	Parameter HOUR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'uart' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/uart.v:3]
+INFO: [Synth 8-6157] synthesizing module 'uart_tx' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/uart_tx.v:3]
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter START bound to: 1 - type: integer 
+	Parameter DATA bound to: 2 - type: integer 
+	Parameter STOP bound to: 3 - type: integer 
+	Parameter BIT_CNT bound to: 7 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/uart_tx.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'uart_tx' (1#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/uart_tx.v:3]
+INFO: [Synth 8-6157] synthesizing module 'uart_rx' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/uart_rx.v:3]
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter START bound to: 1 - type: integer 
+	Parameter DATA bound to: 2 - type: integer 
+	Parameter STOP bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'uart_rx' (2#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/uart_rx.v:3]
+INFO: [Synth 8-6157] synthesizing module 'baud_tick_gen' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/uart.v:46]
+	Parameter F_COUNT bound to: 651 - type: integer 
+	Parameter WIDTH bound to: 9 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'baud_tick_gen' (3#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/uart.v:46]
+INFO: [Synth 8-6155] done synthesizing module 'uart' (4#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/uart.v:3]
+INFO: [Synth 8-6157] synthesizing module 'fifo' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fifo.v:3]
+	Parameter DEPTH bound to: 16 - type: integer 
+	Parameter BIT_WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'register_file' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fifo.v:45]
+	Parameter DEPTH bound to: 16 - type: integer 
+	Parameter BIT_WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'register_file' (5#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fifo.v:45]
+INFO: [Synth 8-6157] synthesizing module 'fifo_control_unit' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fifo.v:69]
+	Parameter DEPTH bound to: 16 - type: integer 
+	Parameter BIT_WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fifo.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_control_unit' (6#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fifo.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'fifo' (7#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fifo.v:3]
+INFO: [Synth 8-6157] synthesizing module 'fifo__parameterized0' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fifo.v:3]
+	Parameter DEPTH bound to: 20 - type: integer 
+	Parameter BIT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'register_file__parameterized0' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fifo.v:45]
+	Parameter DEPTH bound to: 20 - type: integer 
+	Parameter BIT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'register_file__parameterized0' (7#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fifo.v:45]
+INFO: [Synth 8-6157] synthesizing module 'fifo_control_unit__parameterized0' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fifo.v:69]
+	Parameter DEPTH bound to: 20 - type: integer 
+	Parameter BIT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fifo.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_control_unit__parameterized0' (7#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fifo.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'fifo__parameterized0' (7#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fifo.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ascii_decoder' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/ascii_decoder.v:3]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/ascii_decoder.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'ascii_decoder' (8#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/ascii_decoder.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ascii_sender' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/ascii_sender.v:3]
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter LOAD bound to: 1 - type: integer 
+	Parameter SEND bound to: 2 - type: integer 
+	Parameter WAIT bound to: 3 - type: integer 
+	Parameter NEXT bound to: 4 - type: integer 
+	Parameter DONE bound to: 5 - type: integer 
+INFO: [Synth 8-226] default block is never used [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/ascii_sender.v:88]
+INFO: [Synth 8-226] default block is never used [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/ascii_sender.v:110]
+INFO: [Synth 8-226] default block is never used [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/ascii_sender.v:132]
+INFO: [Synth 8-226] default block is never used [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/ascii_sender.v:154]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/ascii_sender.v:66]
+INFO: [Synth 8-6157] synthesizing module 'sender_data_splitter' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/sender_data_splitter.v:3]
+INFO: [Synth 8-6157] synthesizing module 'bits_to_ascii' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/sender_data_splitter.v:128]
+INFO: [Synth 8-6155] done synthesizing module 'bits_to_ascii' (9#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/sender_data_splitter.v:128]
+INFO: [Synth 8-6155] done synthesizing module 'sender_data_splitter' (10#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/sender_data_splitter.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ascii_sender' (11#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/ascii_sender.v:3]
+INFO: [Synth 8-6157] synthesizing module 'btn_debounce' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/btn_debounce.v:3]
+INFO: [Synth 8-6157] synthesizing module 'button_debounce' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/button_debounce.v:3]
+	Parameter F_COUNT bound to: 1000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'button_debounce' (12#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/button_debounce.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'btn_debounce' (13#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/btn_debounce.v:3]
+INFO: [Synth 8-6157] synthesizing module 'signal_decision' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/signal_decision.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'signal_decision' (14#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/signal_decision.v:3]
+INFO: [Synth 8-6157] synthesizing module 'control_unit' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/control_unit.v:3]
+INFO: [Synth 8-6157] synthesizing module 'watch_control_unit' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/watch_control_unit.v:3]
+	Parameter RUN_HOUR_MIN bound to: 0 - type: integer 
+	Parameter RUN_SEC_MSEC bound to: 1 - type: integer 
+	Parameter SET_10_HOUR bound to: 2 - type: integer 
+	Parameter CH_10U_HOUR bound to: 3 - type: integer 
+	Parameter CH_10D_HOUR bound to: 4 - type: integer 
+	Parameter SET_1_HOUR bound to: 5 - type: integer 
+	Parameter CH_1U_HOUR bound to: 6 - type: integer 
+	Parameter CH_1D_HOUR bound to: 7 - type: integer 
+	Parameter SET_10_MIN bound to: 8 - type: integer 
+	Parameter CH_10U_MIN bound to: 9 - type: integer 
+	Parameter CH_10D_MIN bound to: 10 - type: integer 
+	Parameter SET_1_MIN bound to: 11 - type: integer 
+	Parameter CH_1U_MIN bound to: 12 - type: integer 
+	Parameter CH_1D_MIN bound to: 13 - type: integer 
+	Parameter SET_10_SEC bound to: 14 - type: integer 
+	Parameter CH_10U_SEC bound to: 15 - type: integer 
+	Parameter CH_10D_SEC bound to: 16 - type: integer 
+	Parameter SET_1_SEC bound to: 17 - type: integer 
+	Parameter CH_1U_SEC bound to: 18 - type: integer 
+	Parameter CH_1D_SEC bound to: 19 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/watch_control_unit.v:42]
+INFO: [Synth 8-6155] done synthesizing module 'watch_control_unit' (15#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/watch_control_unit.v:3]
+INFO: [Synth 8-6157] synthesizing module 'stop_watch_control_unit' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/stop_watch_control_unit.v:3]
+	Parameter STATE_STP bound to: 2'b00 
+	Parameter STATE_RUN bound to: 2'b01 
+	Parameter STATE_CLR bound to: 2'b10 
+	Parameter STATE_MOD bound to: 2'b11 
+INFO: [Synth 8-6155] done synthesizing module 'stop_watch_control_unit' (16#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/stop_watch_control_unit.v:3]
+INFO: [Synth 8-6157] synthesizing module 'dht11_control_unit' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/control_unit.v:70]
+	Parameter DHT_SET bound to: 0 - type: integer 
+	Parameter DHT_MEASURE bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'dht11_control_unit' (17#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/control_unit.v:70]
+INFO: [Synth 8-6157] synthesizing module 'sr04_control_unit' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/control_unit.v:112]
+	Parameter DIST_SET bound to: 0 - type: integer 
+	Parameter DIST_MEASURE bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'sr04_control_unit' (18#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/control_unit.v:112]
+INFO: [Synth 8-6155] done synthesizing module 'control_unit' (19#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/control_unit.v:3]
+INFO: [Synth 8-6157] synthesizing module 'watch_datapath' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/watch_datapath.v:3]
+	Parameter MSEC_WIDTH bound to: 7 - type: integer 
+	Parameter SEC_WIDTH bound to: 6 - type: integer 
+	Parameter MIN_WIDTH bound to: 6 - type: integer 
+	Parameter HOUR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'watch_tick_counter' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/watch_datapath.v:90]
+	Parameter TIME_MAX bound to: 24 - type: integer 
+	Parameter BIT_WIDTH bound to: 5 - type: integer 
+	Parameter INITIAL_TIME bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'watch_tick_counter' (20#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/watch_datapath.v:90]
+INFO: [Synth 8-6157] synthesizing module 'watch_tick_counter__parameterized0' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/watch_datapath.v:90]
+	Parameter TIME_MAX bound to: 60 - type: integer 
+	Parameter BIT_WIDTH bound to: 6 - type: integer 
+	Parameter INITIAL_TIME bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'watch_tick_counter__parameterized0' (20#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/watch_datapath.v:90]
+INFO: [Synth 8-6157] synthesizing module 'watch_tick_counter__parameterized1' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/watch_datapath.v:90]
+	Parameter TIME_MAX bound to: 100 - type: integer 
+	Parameter BIT_WIDTH bound to: 7 - type: integer 
+	Parameter INITIAL_TIME bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'watch_tick_counter__parameterized1' (20#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/watch_datapath.v:90]
+INFO: [Synth 8-6157] synthesizing module 'watch_tick_gen_100hz' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/watch_datapath.v:173]
+	Parameter F_COUNT bound to: 1000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'watch_tick_gen_100hz' (21#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/watch_datapath.v:173]
+INFO: [Synth 8-6155] done synthesizing module 'watch_datapath' (22#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/watch_datapath.v:3]
+INFO: [Synth 8-6157] synthesizing module 'stopwatch_datapath' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/stopwatch_datapath.v:3]
+	Parameter MSEC_WIDTH bound to: 7 - type: integer 
+	Parameter SEC_WIDTH bound to: 6 - type: integer 
+	Parameter MIN_WIDTH bound to: 6 - type: integer 
+	Parameter HOUR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'tick_counter' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/stopwatch_datapath.v:84]
+	Parameter TIMES bound to: 24 - type: integer 
+	Parameter BIT_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tick_counter' (23#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/stopwatch_datapath.v:84]
+INFO: [Synth 8-6157] synthesizing module 'tick_counter__parameterized0' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/stopwatch_datapath.v:84]
+	Parameter TIMES bound to: 60 - type: integer 
+	Parameter BIT_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tick_counter__parameterized0' (23#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/stopwatch_datapath.v:84]
+INFO: [Synth 8-6157] synthesizing module 'tick_counter__parameterized1' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/stopwatch_datapath.v:84]
+	Parameter TIMES bound to: 100 - type: integer 
+	Parameter BIT_WIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tick_counter__parameterized1' (23#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/stopwatch_datapath.v:84]
+INFO: [Synth 8-6157] synthesizing module 'tick_gen_100hz' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/stopwatch_datapath.v:145]
+	Parameter F_COUNT bound to: 1000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tick_gen_100hz' (24#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/stopwatch_datapath.v:145]
+INFO: [Synth 8-6155] done synthesizing module 'stopwatch_datapath' (25#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/stopwatch_datapath.v:3]
+INFO: [Synth 8-6157] synthesizing module 'tick_gen_us' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/tick_gen_us.v:3]
+	Parameter F_COUNT bound to: 100 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tick_gen_us' (26#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/tick_gen_us.v:3]
+INFO: [Synth 8-6157] synthesizing module 'dht11_controller' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/dht11_controller.v:4]
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter START bound to: 1 - type: integer 
+	Parameter WAIT bound to: 2 - type: integer 
+	Parameter SYNC_L bound to: 3 - type: integer 
+	Parameter SYNC_H bound to: 4 - type: integer 
+	Parameter DATA_SYNC bound to: 5 - type: integer 
+	Parameter DATA_COUNT bound to: 6 - type: integer 
+	Parameter DATA_DECISION bound to: 7 - type: integer 
+	Parameter STOP bound to: 8 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/dht11_controller.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'dht11_controller' (27#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/dht11_controller.v:4]
+INFO: [Synth 8-6157] synthesizing module 'sr04_controller' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/sr04_controller.v:3]
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter START bound to: 1 - type: integer 
+	Parameter WAIT bound to: 2 - type: integer 
+	Parameter RESPONSE bound to: 3 - type: integer 
+	Parameter BIT bound to: 15 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'sr04_controller' (28#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/sr04_controller.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mux_4x_1_top' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/top_uart_time_sensor.v:335]
+	Parameter WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-226] default block is never used [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/top_uart_time_sensor.v:350]
+INFO: [Synth 8-6155] done synthesizing module 'mux_4x_1_top' (29#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/top_uart_time_sensor.v:335]
+INFO: [Synth 8-6157] synthesizing module 'mux_2sel' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/top_uart_time_sensor.v:300]
+	Parameter MSEC_WIDTH bound to: 7 - type: integer 
+	Parameter SEC_WIDTH bound to: 6 - type: integer 
+	Parameter MIN_WIDTH bound to: 6 - type: integer 
+	Parameter HOUR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux_2sel' (30#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/top_uart_time_sensor.v:300]
+INFO: [Synth 8-6157] synthesizing module 'fnd_controller' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:4]
+	Parameter MSEC_WIDTH bound to: 7 - type: integer 
+	Parameter SEC_WIDTH bound to: 6 - type: integer 
+	Parameter MIN_WIDTH bound to: 6 - type: integer 
+	Parameter HOUR_WIDTH bound to: 5 - type: integer 
+	Parameter SENSOR_WIDTH bound to: 9 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'digit_splitter' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:325]
+	Parameter BIT_WIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'digit_splitter' (31#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:325]
+INFO: [Synth 8-6157] synthesizing module 'digit_splitter__parameterized0' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:325]
+	Parameter BIT_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'digit_splitter__parameterized0' (31#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:325]
+INFO: [Synth 8-6157] synthesizing module 'digit_splitter__parameterized1' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:325]
+	Parameter BIT_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'digit_splitter__parameterized1' (31#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:325]
+INFO: [Synth 8-6157] synthesizing module 'comparator' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:316]
+INFO: [Synth 8-6155] done synthesizing module 'comparator' (32#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:316]
+INFO: [Synth 8-6157] synthesizing module 'digit_splitter_sensor' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:339]
+	Parameter BIT_WIDTH bound to: 9 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'digit_splitter_sensor' (33#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:339]
+INFO: [Synth 8-6157] synthesizing module 'mux_8x1' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:370]
+INFO: [Synth 8-226] default block is never used [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:389]
+INFO: [Synth 8-6155] done synthesizing module 'mux_8x1' (34#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:370]
+INFO: [Synth 8-6157] synthesizing module 'mux_2x_1' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:290]
+INFO: [Synth 8-6155] done synthesizing module 'mux_2x_1' (35#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:290]
+INFO: [Synth 8-6157] synthesizing module 'mux_watch_2x1' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:356]
+INFO: [Synth 8-6155] done synthesizing module 'mux_watch_2x1' (36#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:356]
+INFO: [Synth 8-6157] synthesizing module 'counter_n' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:270]
+	Parameter WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter_n' (37#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:270]
+WARNING: [Synth 8-689] width (2) of port connection 'digit_sel' does not match port width (3) of module 'counter_n' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:212]
+INFO: [Synth 8-6157] synthesizing module 'decoder_2x4' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:301]
+INFO: [Synth 8-226] default block is never used [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:306]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_2x4' (38#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:301]
+INFO: [Synth 8-6157] synthesizing module 'bcd' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:404]
+INFO: [Synth 8-226] default block is never used [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:410]
+INFO: [Synth 8-6155] done synthesizing module 'bcd' (39#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:404]
+INFO: [Synth 8-6157] synthesizing module 'bcd_sensor' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:434]
+INFO: [Synth 8-226] default block is never used [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:440]
+INFO: [Synth 8-6155] done synthesizing module 'bcd_sensor' (40#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:434]
+INFO: [Synth 8-6157] synthesizing module 'clk_div_1khz' [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:244]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div_1khz' (41#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:244]
+INFO: [Synth 8-6155] done synthesizing module 'fnd_controller' (42#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/fnd_controller.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'top_uart_time_sensor' (43#1) [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/sources_1/new/top_uart_time_sensor.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1085.133 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1085.133 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1085.133 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1085.133 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/constrs_1/new/echo.xdc]
+WARNING: [Vivado 12-584] No ports matched 'btn_R'. [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/constrs_1/new/echo.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/constrs_1/new/echo.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/constrs_1/new/echo.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.srcs/constrs_1/new/echo.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_uart_time_sensor_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_uart_time_sensor_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1187.996 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1187.996 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1187.996 ; gain = 102.863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1187.996 ; gain = 102.863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1187.996 ; gain = 102.863
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'c_state_reg' in module 'uart_tx'
+INFO: [Synth 8-802] inferred FSM for state register 'c_state_reg' in module 'uart_rx'
+INFO: [Synth 8-802] inferred FSM for state register 'c_state_reg' in module 'ascii_sender'
+INFO: [Synth 8-802] inferred FSM for state register 'wt_c_state_reg' in module 'watch_control_unit'
+INFO: [Synth 8-802] inferred FSM for state register 'st_c_state_reg' in module 'stop_watch_control_unit'
+INFO: [Synth 8-802] inferred FSM for state register 'c_state_reg' in module 'dht11_controller'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'sr04_controller'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                              000
+                   START |                               01 |                              001
+                    DATA |                               10 |                              010
+                    STOP |                               11 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'c_state_reg' using encoding 'sequential' in module 'uart_tx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                               00
+                   START |                               01 |                               01
+                    DATA |                               10 |                               10
+                    STOP |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'c_state_reg' using encoding 'sequential' in module 'uart_rx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                           000001 |                              000
+                    LOAD |                           000010 |                              001
+                    SEND |                           000100 |                              010
+                    WAIT |                           001000 |                              011
+                    NEXT |                           010000 |                              100
+                    DONE |                           100000 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'c_state_reg' using encoding 'one-hot' in module 'ascii_sender'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            RUN_HOUR_MIN |                            00000 |                            00000
+               SET_1_MIN |                            00001 |                            01011
+               CH_1U_MIN |                            00010 |                            01100
+               CH_1D_MIN |                            00011 |                            01101
+               SET_1_SEC |                            00100 |                            10001
+               CH_1U_SEC |                            00101 |                            10010
+               CH_1D_SEC |                            00110 |                            10011
+              SET_1_HOUR |                            00111 |                            00101
+              SET_10_MIN |                            01000 |                            01000
+              CH_10U_MIN |                            01001 |                            01001
+              CH_10D_MIN |                            01010 |                            01010
+              SET_10_SEC |                            01011 |                            01110
+            RUN_SEC_MSEC |                            01100 |                            00001
+              CH_10U_SEC |                            01101 |                            01111
+              CH_10D_SEC |                            01110 |                            10000
+             SET_10_HOUR |                            01111 |                            00010
+             CH_10U_HOUR |                            10000 |                            00011
+             CH_10D_HOUR |                            10001 |                            00100
+              CH_1U_HOUR |                            10010 |                            00110
+              CH_1D_HOUR |                            10011 |                            00111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wt_c_state_reg' using encoding 'sequential' in module 'watch_control_unit'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               STATE_STP |                               00 |                               00
+               STATE_RUN |                               01 |                               01
+               STATE_CLR |                               10 |                               10
+               STATE_MOD |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'st_c_state_reg' using encoding 'sequential' in module 'stop_watch_control_unit'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                        000000001 |                             0000
+                   START |                        000000010 |                             0001
+                    WAIT |                        000000100 |                             0010
+                  SYNC_L |                        000001000 |                             0011
+                  SYNC_H |                        000010000 |                             0100
+               DATA_SYNC |                        000100000 |                             0101
+              DATA_COUNT |                        001000000 |                             0110
+           DATA_DECISION |                        010000000 |                             0111
+                    STOP |                        100000000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'c_state_reg' using encoding 'one-hot' in module 'dht11_controller'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                               00
+                   START |                               01 |                               01
+                    WAIT |                               10 |                               10
+                RESPONSE |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'sr04_controller'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1187.996 ; gain = 102.863
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'U_FND_CNTL/U_COUNTER_TIME' (counter_n) to 'U_FND_CNTL/U_COUNTER_SENSOR'
+INFO: [Synth 8-223] decloning instance 'U_FND_CNTL/U_DECODER_2x4' (decoder_2x4) to 'U_FND_CNTL/U_DECODER_2x4_SENSOR'
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   20 Bit       Adders := 2     
+	   2 Input   16 Bit       Adders := 2     
+	   2 Input   15 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 5     
+	   2 Input    8 Bit       Adders := 1     
+	   4 Input    8 Bit       Adders := 1     
+	   2 Input    7 Bit       Adders := 11    
+	   2 Input    6 Bit       Adders := 17    
+	   2 Input    5 Bit       Adders := 13    
+	   2 Input    4 Bit       Adders := 6     
+	   2 Input    3 Bit       Adders := 3     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               20 Bit    Registers := 2     
+	               16 Bit    Registers := 2     
+	               15 Bit    Registers := 1     
+	               10 Bit    Registers := 5     
+	                8 Bit    Registers := 7     
+	                7 Bit    Registers := 3     
+	                6 Bit    Registers := 5     
+	                5 Bit    Registers := 5     
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 3     
+	                1 Bit    Registers := 32    
++---Muxes : 
+	   2 Input   20 Bit        Muxes := 3     
+	   4 Input   16 Bit        Muxes := 1     
+	   2 Input   15 Bit        Muxes := 6     
+	   9 Input   15 Bit        Muxes := 1     
+	   9 Input    9 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 4     
+	   4 Input    8 Bit        Muxes := 3     
+	  20 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 6     
+	   4 Input    7 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 37    
+	   6 Input    6 Bit        Muxes := 1     
+	   4 Input    6 Bit        Muxes := 2     
+	   9 Input    6 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 12    
+	   4 Input    5 Bit        Muxes := 2     
+	  63 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 10    
+	   4 Input    4 Bit        Muxes := 2     
+	   6 Input    4 Bit        Muxes := 1     
+	   4 Input    3 Bit        Muxes := 2     
+	  20 Input    3 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 4     
+	   2 Input    2 Bit        Muxes := 13    
+	   2 Input    1 Bit        Muxes := 38    
+	   3 Input    1 Bit        Muxes := 7     
+	   4 Input    1 Bit        Muxes := 31    
+	   9 Input    1 Bit        Muxes := 14    
+	   6 Input    1 Bit        Muxes := 7     
+	  20 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1187.996 ; gain = 102.863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++------------+------------------------------+-----------+----------------------+-------------+
+|Module Name | RTL Object                   | Inference | Size (Depth x Width) | Primitives  | 
++------------+------------------------------+-----------+----------------------+-------------+
+|U_FIFO_RX   | U_REG_FILE/register_file_reg | Implied   | 16 x 8               | RAM32M x 2	 | 
+|U_FIFO_TX   | U_REG_FILE/register_file_reg | Implied   | 32 x 8               | RAM32M x 2	 | 
++------------+------------------------------+-----------+----------------------+-------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1187.996 ; gain = 102.863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1207.035 ; gain = 121.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping	Report
++------------+------------------------------+-----------+----------------------+-------------+
+|Module Name | RTL Object                   | Inference | Size (Depth x Width) | Primitives  | 
++------------+------------------------------+-----------+----------------------+-------------+
+|U_FIFO_RX   | U_REG_FILE/register_file_reg | Implied   | 16 x 8               | RAM32M x 2	 | 
+|U_FIFO_TX   | U_REG_FILE/register_file_reg | Implied   | 32 x 8               | RAM32M x 2	 | 
++------------+------------------------------+-----------+----------------------+-------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1244.285 ; gain = 159.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1259.066 ; gain = 173.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1259.066 ; gain = 173.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1259.066 ; gain = 173.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1259.066 ; gain = 173.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1259.066 ; gain = 173.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1259.066 ; gain = 173.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++---------------------+-------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name          | RTL Name                            | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++---------------------+-------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|top_uart_time_sensor | U_DHT11_CONTROLLER/data_reg_reg[32] | 9      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_uart_time_sensor | U_DHT11_CONTROLLER/data_reg_reg[16] | 17     | 1     | YES          | NO                 | YES               | 1      | 0       | 
++---------------------+-------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    62|
+|3     |LUT1   |    22|
+|4     |LUT2   |   185|
+|5     |LUT3   |   138|
+|6     |LUT4   |   169|
+|7     |LUT5   |   201|
+|8     |LUT6   |   397|
+|9     |MUXF7  |    12|
+|10    |RAM32M |     4|
+|11    |SRL16E |     2|
+|12    |FDCE   |   376|
+|13    |FDPE   |     8|
+|14    |FDRE   |     2|
+|15    |IBUF   |    12|
+|16    |IOBUF  |     1|
+|17    |OBUF   |    22|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1259.066 ; gain = 173.934
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 1259.066 ; gain = 71.070
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1259.066 ; gain = 173.934
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1271.098 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 79 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1271.098 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instance 
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+151 Infos, 2 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:42 . Memory (MB): peak = 1271.098 ; gain = 185.965
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'D:/Work/OnDeviceAI2/UART_Sensor/UART_Sensor.runs/synth_1/top_uart_time_sensor.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_uart_time_sensor_utilization_synth.rpt -pb top_uart_time_sensor_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon May  4 20:00:25 2026...

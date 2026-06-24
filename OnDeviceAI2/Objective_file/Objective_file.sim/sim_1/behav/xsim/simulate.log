@@ -1,0 +1,12 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+                1000 : start for - join,
+               11000 : A thread
+               11000 : A thread
+               11000 : A thread
+               11000 : A thread
+               11000 : A thread
+               16000 : C thread
+               21000 : B thread
+               21000 : end fork - join,
+$stop called at time : 21 ns : File "D:/Work/OnDeviceAI2/Objective_file/Objective_file.srcs/sources_1/new/tb_fork_join.sv" Line 17
