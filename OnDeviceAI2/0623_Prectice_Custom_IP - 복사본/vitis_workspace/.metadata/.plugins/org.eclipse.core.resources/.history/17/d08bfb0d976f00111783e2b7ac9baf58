@@ -1,0 +1,36 @@
+
+#include "xil_printf.h"
+#include "driver/LED/LED.h"
+#include "driver/FND/FND.h"
+#include "common/delay/delay.h"
+
+
+
+int main()
+{
+	int counter =0;
+	uint16_t ledState =1;
+    LED_Init();
+    FND_Init();
+    Button_Init();
+    uint32_t curTime, prevTime;
+
+    while (1)
+    {
+        if (Button_GetState(&hbtnRunStop) == ACT_RELEASED)
+        {
+            LED_Toggle(0);
+        }
+
+        if (Button_GetState(&hbtnClear) == ACT_PUSHED)
+        {
+            LED_Toggle(2);
+        }
+
+        FND_Excute();
+        incTick();
+        delay_ms(1);
+    }
+
+    return 0;
+}

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jun 23 10:27:29 2026
+# Process ID: 24124
+# Current directory: D:/Work/OnDeviceAI2/0623_Prectice_Custom_IP/0623_Prectice_Custom_IP.runs/impl_1
+# Command line: vivado.exe -log Stopwatch_design_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Stopwatch_design_wrapper.tcl -notrace
+# Log file: D:/Work/OnDeviceAI2/0623_Prectice_Custom_IP/0623_Prectice_Custom_IP.runs/impl_1/Stopwatch_design_wrapper.vdi
+# Journal file: D:/Work/OnDeviceAI2/0623_Prectice_Custom_IP/0623_Prectice_Custom_IP.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Stopwatch_design_wrapper.tcl -notrace

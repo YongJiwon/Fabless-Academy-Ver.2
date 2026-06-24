@@ -1,0 +1,78 @@
+
+#include "xil_printf.h"
+#include "driver/LED/LED.h"
+#include "driver/FND/FND.h"
+#include "common/delay/delay.h"
+
+
+enum {
+	NO_ACT = 0,
+	ACT_PUSHED,
+	ACT_RELEASED
+} button_status_e;
+
+enum {
+	RELEASED = 0,
+	PUSHED
+} button_state_e;
+
+
+uint32_t Button_GetState()
+{
+	static button_state_e prevState = RELEASED;
+	button_state_e curState = GPIO_ReadPin(GPIOB, GPIO_PIN_4) ? PUSHED:RELEASED;
+
+	if(prevState == RELEASED  && curState == PUSHED){
+		prevState = curState;
+		delay_ms(5); //debouncing
+		return ACT_PUSHED;
+	}
+	else if(prevState == PUSHED  && curState == RELEASED){
+		prevState = curState;
+		delay_ms(5); //debouncing
+		return ACT_RELEASED;
+	}
+	return NO_ACT;
+}
+
+int main()
+{
+	int counter = 0;
+	uint16_t ledState =1;
+	uint32_t curTime, prevTime;
+
+	LED_Init();
+	FND_Init();
+
+	while(1)
+	{
+
+		if(Button_GetState() == ACT_RELEASED)
+		{
+			LED_PinToggle(0);
+		}
+		//curTime = millis();
+		//if(curTime - prevTime >= 100-1)
+		//if(curTime - prevTime > 100) -> 비동기식 프로그래밍
+//		{
+//			prevTime  = curTime;
+//			xil_printf("counter = %d\n", counter++);
+//			ledState = (ledState >> 1) | (ledState << 15);
+//			LED_WritePort16(ledState);
+//			FND_SetNum(counter++);
+
+
+	//	}
+		/*****************************************************/
+		FND_Excute();
+		incTick();
+		delay_ms(1);
+	}
+
+
+	return 0;
+
+}
+
+
+

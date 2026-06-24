@@ -1,0 +1,48 @@
+#include "GPIO.h"
+
+
+void GPIO_SetMode(GPIO_TypeDef *GPIOx, int mode)
+{
+	GPIOx-> CR = mode;
+}
+
+void GPIO_WritePort(GPIO_TypeDef *GPIOx, uint32_t data)
+{
+	GPIOx-> ODR = data;
+}
+
+void GPIO_WritePin(GPIO_TypeDef *GPIOx, uint32_t gpio_pin, uint32_t gpio_pin_state)
+{
+	if(gpio_pin_state == GPIO_SET)
+	{
+		GPIOx-> ODR |= gpio_pin;
+	}
+	else
+	{
+		GPIOx-> ODR &= ~gpio_pin;
+	}
+}
+
+void GPIO_ReadPort(GPIO_TypeDef *GPIOx, int mode)
+{
+	return GPIOx-> IDR;
+}
+
+void GPIO_ReadPin(GPIO_TypeDef *GPIOx, uint32_t gpio_pin, uint32_t gpio_pin_state)
+{
+	return (GPIOx-> IDR & gpio_pin)?1:0;
+}
+
+
+const uint8_t fnd_font[10] = {
+    0xC0, // 0
+    0xF9, // 1
+    0xA4, // 2
+    0xB0, // 3
+    0x99, // 4
+    0x92, // 5
+    0x82, // 6
+    0xF8, // 7
+    0x80, // 8
+    0x90  // 9
+};

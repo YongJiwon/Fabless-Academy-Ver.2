@@ -1,0 +1,59 @@
+#include "StopWatch.h"
+
+
+typedef enum {
+	STOP=0,
+	RUN,
+	CLEAR
+
+} stopwatch_e;
+
+stopwatch_e stopWatchState;
+
+void StopWatch_Init()
+{
+
+	LED_Init();
+	FND_Init();
+	Button_Init();
+	stopWatchState = STOP;
+
+}
+
+void StopWatch_Excute()
+{
+
+
+
+	switch(stopWatchState){
+		case STOP: if()
+		{
+
+		}
+		else if()
+		{
+
+		}
+		break;
+		case RUN:
+			if()
+					{
+
+					}
+					else if()
+					{
+
+					}
+		case: STOP
+		if()
+				{
+
+				}
+				else if()
+				{
+
+				}
+
+	}
+}
+

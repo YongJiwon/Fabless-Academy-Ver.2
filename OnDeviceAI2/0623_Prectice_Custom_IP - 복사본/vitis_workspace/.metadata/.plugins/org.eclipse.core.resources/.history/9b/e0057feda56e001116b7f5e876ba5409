@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+#include <stdint.h>
+
+
+#define GPIOA XPAR_GPIO_0_S00_AXI_BASEADDR
+#define GPIOB XPAR_GPIO_1_S00_AXI_BASEADDR
+#define GPIOC XPAR_GPIO_2_S00_AXI_BASEADDR
+#define GPIOD XPAR_GPIO_4_S00_AXI_BASEADDR
+#define OC = 0x00
+#define IDR = 0x04
+#define ODR = 0x08
+
+
+
+int main()
+{
+    init_platform();
+
+    print("Hello World\n\r");
+    print("Successfully ran Hello World application");
+    cleanup_platform();
+    return 0;
+}
