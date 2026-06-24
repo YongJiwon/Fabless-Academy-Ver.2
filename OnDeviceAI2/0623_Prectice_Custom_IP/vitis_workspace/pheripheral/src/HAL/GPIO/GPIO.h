@@ -6,9 +6,9 @@
 
 
 typedef struct {
-    volatile uint32_t CR;   // Offset 0x00 : 방향 설정
-    volatile uint32_t IDR;  // Offset 0x04 : 입력 데이터 읽기
-    volatile uint32_t ODR;  // Offset 0x08 : 출력 데이터 쓰기
+	volatile uint32_t CR;   // Offset 0x00 : 방향 설정
+	volatile uint32_t IDR;  // Offset 0x04 : 입력 데이터 읽기
+	volatile uint32_t ODR;  // Offset 0x08 : 출력 데이터 쓰기
 } GPIO_TypeDef;
 
 
@@ -37,7 +37,9 @@ void GPIO_SetMode(GPIO_TypeDef *GPIOx, int mode);
 void GPIO_WritePort(GPIO_TypeDef *GPIOx, uint32_t data);
 void GPIO_WritePin(GPIO_TypeDef *GPIOx, uint32_t gpio_pin, uint32_t gpio_pin_state);
 uint32_t GPIO_ReadPort(GPIO_TypeDef *GPIOx);
-uint32_t GPIO_ReadPin(GPIO_TypeDef *GPIOx, uint32_t gpio_pin, uint32_t gpio_pin_state);
+uint32_t GPIO_ReadPin(GPIO_TypeDef *GPIOx, uint32_t gpio_pin);
+uint32_t GPIO_GetODR(GPIO_TypeDef *GPIOx);
+uint32_t GPIO_GetCR(GPIO_TypeDef *GPIOx);
 
 
 

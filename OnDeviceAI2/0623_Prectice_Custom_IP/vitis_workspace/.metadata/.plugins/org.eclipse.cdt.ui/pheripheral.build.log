@@ -1,6 +1,21 @@
-16:16:32 **** Incremental Build of configuration Debug for project pheripheral ****
+17:23:47 **** Incremental Build of configuration Debug for project pheripheral ****
 make all 
-make: Nothing to be done for 'all'.
+'Building file: ../src/driver/FND/FND.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/driver/FND/FND.o" -ID:/Work/OnDeviceAI2/0623_Prectice_Custom_IP/vitis_workspace/Stopwatch_design_wrapper/export/Stopwatch_design_wrapper/sw/Stopwatch_design_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/driver/FND/FND.d" -MT"src/driver/FND/FND.o" -o "src/driver/FND/FND.o" "../src/driver/FND/FND.c"
+'Finished building: ../src/driver/FND/FND.c'
+' '
+'Building target: pheripheral.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/Work/OnDeviceAI2/0623_Prectice_Custom_IP/vitis_workspace/Stopwatch_design_wrapper/export/Stopwatch_design_wrapper/sw/Stopwatch_design_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "pheripheral.elf"  ./src/driver/LED/LED.o  ./src/driver/FND/FND.o  ./src/driver/Button/Button.o  ./src/common/delay/delay.o  ./src/ap/StopWatch.o  ./src/HAL/GPIO/GPIO.o  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pheripheral.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size pheripheral.elf  |tee "pheripheral.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6560	    268	   3172	  10000	   2710	pheripheral.elf
+'Finished building: pheripheral.elf.size'
+' '
 
-16:16:32 Build Finished (took 106ms)
+17:23:48 Build Finished (took 781ms)
 

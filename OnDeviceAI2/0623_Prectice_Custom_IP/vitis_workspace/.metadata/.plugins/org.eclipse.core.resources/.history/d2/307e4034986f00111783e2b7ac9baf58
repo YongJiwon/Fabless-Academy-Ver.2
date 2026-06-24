@@ -1,0 +1,61 @@
+#include "StopWatch.h"
+
+
+typedef enum {
+	STOP=0,
+	RUN,
+	CLEAR
+
+} stopwatch_e;
+
+stopwatch_e stopWatchState;
+uint32_t counter;
+void StopWatch_Init()
+{
+
+	LED_Init();
+	FND_Init();
+	Button_Init();
+	stopWatchState = STOP;
+	counter = 0;
+
+}
+
+
+
+void StopWatch_RunTime()
+{
+
+}
+
+void StopWatch_Excute()
+{
+	StopWatch_RunTime();
+	StopWatch_ControlState();
+	FND_SetNum(counter);
+
+
+}
+
+
+button_status_e Button_GetState(hbutton *hbtn)
+{
+    button_state_e curState;
+
+    curState = GPIO_ReadPin(hbtn->GPIOx, hbtn->gpio_pin) ? PUSHED : RELEASED;
+
+    if(hbtn->prevState == RELEASED && curState == PUSHED)
+    {
+        hbtn->prevState = curState;
+        delay_ms(5);
+        return ACT_PUSHED;
+    }
+    else if(hbtn->prevState == PUSHED && curState == RELEASED)
+    {
+        hbtn->prevState = curState;
+        delay_ms(5);
+        return ACT_RELEASED;
+    }
+
+    return NO_ACT;
+}

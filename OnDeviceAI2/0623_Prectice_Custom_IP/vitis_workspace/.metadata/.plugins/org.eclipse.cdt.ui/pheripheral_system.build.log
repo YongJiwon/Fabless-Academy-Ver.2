@@ -1,6 +1,6 @@
-14:11:27 **** Build of configuration Debug for project pheripheral_system ****
+16:11:13 **** Incremental Build of configuration Debug for project pheripheral_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
 
-14:11:27 Build Finished (took 164ms)
+16:11:14 Build Finished (took 98ms)
 
