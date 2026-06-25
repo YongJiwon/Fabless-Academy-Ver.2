@@ -1,0 +1,21 @@
+#ifndef SRC_AP_STOPWATCH_H_
+#define SRC_AP_STOPWATCH_H_
+
+
+#include "../driver/Button/Button.h"
+#include "../driver/FND/FND.h"
+#include "../driver/LED/LED.h"
+
+void StopWatch_Init();
+void StopWatch_ControlState();
+void StopWatch_Excute();
+void StopWatch_RunTime();
+void StopWatch_ControlLed();
+
+typedef enum {
+    STOP = 0,
+    RUN,
+    CLEAR
+} stopwatch_e;
+
+#endif /* SRC_AP_STOPWATCH_H_ */

@@ -16,6 +16,8 @@
 	(
 		// Users to add ports here
 
+
+		
 		// User ports ends
 		// Do not modify the ports beyond this line
 
@@ -43,11 +45,28 @@
 		output wire  s00_axi_rvalid,
 		input wire  s00_axi_rready
 	);
+
+		wire cnt_en;
+    	wire intr_en; //slave register 0[0]
+		wire cnt_valid; //slave register 0[1]
+    	wire [31:0] psc; //slave register 1
+    	wire [31:0] arr; //slave register 2
+    	wire [31:0] o_cnt; //slave register 3
+		wire [31:0] i_cnt; //internal signal
+		
+    	
 // Instantiation of Axi Bus Interface S00_AXI
 	axi_template_v1_0_S00_AXI # ( 
 		.C_S_AXI_DATA_WIDTH(C_S00_AXI_DATA_WIDTH),
 		.C_S_AXI_ADDR_WIDTH(C_S00_AXI_ADDR_WIDTH)
 	) axi_template_v1_0_S00_AXI_inst (
+		.cnt_en(cnt_en),
+		.intr_en(intr_en),
+		.psc(psc),
+		.arr(arr),
+		.i_cnt(i_cnt),
+		.cnt_valid(cnt_valid),
+		.o_cnt(o_cnt),
 		.S_AXI_ACLK(s00_axi_aclk),
 		.S_AXI_ARESETN(s00_axi_aresetn),
 		.S_AXI_AWADDR(s00_axi_awaddr),
@@ -71,8 +90,23 @@
 		.S_AXI_RREADY(s00_axi_rready)
 	);
 
-	// Add user logic here
 
+
+
+
+	// Add user logic here
+	TimerCounter U_TIMER_COUNTER(
+    .clk(s00_axi_aclk),
+    .rst_n(s00_axi_aresetn),
+    .cnt_en(cnt_en),
+    .intr_en(intr_en),
+    .psc(psc),
+    .arr(arr),
+    .cnt_valid(cnt_valid),
+    .i_cnt(i_cnt),
+    .intr(intr),
+    .o_cnt(o_cnt)
+);
 	// User logic ends
 
 	endmodule

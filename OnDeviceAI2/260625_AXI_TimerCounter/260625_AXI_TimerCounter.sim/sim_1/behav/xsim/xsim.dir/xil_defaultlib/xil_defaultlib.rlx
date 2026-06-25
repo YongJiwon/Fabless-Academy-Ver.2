@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Work/OnDeviceAI2/260625_AXI_TimerCounter/260625_AXI_TimerCounter.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/Work/OnDeviceAI2/260625_AXI_TimerCounter/260625_AXI_TimerCounter.srcs/sim_1/new/tb_TimerCounter.sv,1782366192,systemVerilog,,,,tb_TimerCounter,,uvm,,,,,,
+D:/Work/OnDeviceAI2/260625_AXI_TimerCounter/260625_AXI_TimerCounter.srcs/sim_1/new/tb_axi_timer.sv,1782374945,systemVerilog,,,,tb_axi_timer,,uvm,,,,,,
+D:/Work/OnDeviceAI2/260625_AXI_TimerCounter/260625_AXI_TimerCounter.srcs/sources_1/new/TimerCounter.v,1782364942,verilog,,D:/Work/OnDeviceAI2/ip_repo/axi_template_1.0/hdl/axi_template_v1_0.v,,TimerCounter,,uvm,,,,,,
+D:/Work/OnDeviceAI2/ip_repo/axi_template_1.0/hdl/axi_template_v1_0.v,1782374816,verilog,,D:/Work/OnDeviceAI2/ip_repo/axi_template_1.0/hdl/axi_template_v1_0_S00_AXI.v,,axi_template_v1_0,,uvm,,,,,,
+D:/Work/OnDeviceAI2/ip_repo/axi_template_1.0/hdl/axi_template_v1_0_S00_AXI.v,1782371783,verilog,,,,axi_template_v1_0_S00_AXI,,uvm,,,,,,

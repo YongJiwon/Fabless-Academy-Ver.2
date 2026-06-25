@@ -24,7 +24,15 @@
 	)
 	(
 		// Users to add ports here
-
+		
+		output wire cnt_en, //slave register 0[0]
+    	output wire intr_en, //slave register 0[1]
+    	output wire [31:0] psc, //slave register 1
+    	output wire [31:0] arr, //slave register 2
+		output wire cnt_valid, //internal signal		
+		output wire [31:0] i_cnt, //internal signal
+		input wire [31:0] o_cnt, //slave register 3
+		
 		// User ports ends
 		// Do not modify the ports beyond this line
 
@@ -113,15 +121,27 @@
 	//-- Signals for user logic register space example
 	//------------------------------------------------
 	//-- Number of Slave Registers 4
-	reg [C_S_AXI_DATA_WIDTH-1:0]	slv_reg0;
-	reg [C_S_AXI_DATA_WIDTH-1:0]	slv_reg1;
-	reg [C_S_AXI_DATA_WIDTH-1:0]	slv_reg2;
-	reg [C_S_AXI_DATA_WIDTH-1:0]	slv_reg3;
+	reg [C_S_AXI_DATA_WIDTH-1:0]	slv_reg0; //CR
+	reg [C_S_AXI_DATA_WIDTH-1:0]	slv_reg1; //PSC
+	reg [C_S_AXI_DATA_WIDTH-1:0]	slv_reg2; //ARR
+	reg [C_S_AXI_DATA_WIDTH-1:0]	slv_reg3; //CNT
 	wire	 slv_reg_rden;
 	wire	 slv_reg_wren;
 	reg [C_S_AXI_DATA_WIDTH-1:0]	 reg_data_out;
 	integer	 byte_index;
 	reg	 aw_en;
+
+
+	reg cnt_valid_r;
+	//External signals assignments
+	assign cnt_en = slv_reg0[0];
+	assign intr_en = slv_reg0[1];	
+	assign psc  = slv_reg1;
+	assign arr = slv_reg2;	
+	assign i_cnt = slv_reg3;
+	assign cnt_valid = cnt_valid_r;
+	
+	//end of user logic External signals assignments
 
 	// I/O Connections assignments
 
@@ -235,6 +255,7 @@
 	      slv_reg3 <= 0;
 	    end 
 	  else begin
+		cnt_valid_r <= 1'b0;
 	    if (slv_reg_wren)
 	      begin
 	        case ( axi_awaddr[ADDR_LSB+OPT_MEM_ADDR_BITS:ADDR_LSB] )
@@ -265,6 +286,7 @@
 	                // Respective byte enables are asserted as per write strobes 
 	                // Slave register 3
 	                slv_reg3[(byte_index*8) +: 8] <= S_AXI_WDATA[(byte_index*8) +: 8];
+					cnt_valid_r <= 1'b1;
 	              end  
 	          default : begin
 	                      slv_reg0 <= slv_reg0;
@@ -382,7 +404,7 @@
 	        2'h0   : reg_data_out <= slv_reg0;
 	        2'h1   : reg_data_out <= slv_reg1;
 	        2'h2   : reg_data_out <= slv_reg2;
-	        2'h3   : reg_data_out <= slv_reg3;
+	        2'h3   : reg_data_out <= o_cnt;
 	        default : reg_data_out <= 0;
 	      endcase
 	end
@@ -407,6 +429,7 @@
 	end    
 
 	// Add user logic here
+
 
 	// User logic ends
 
